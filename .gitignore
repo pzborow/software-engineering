@@ -1,0 +1,6 @@
+.kilo/
+node_modules/
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
