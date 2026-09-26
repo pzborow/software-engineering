@@ -1,0 +1,1 @@
+{"items": [{"module": "dowcipy", "title": "Lista obecności bez wołania w próżnię", "body": "Pętla `for` działa jak nauczyciel z dziennikiem: woła każdego z listy po kolei i na ostatnim nazwisku kończy. Nie stoi potem w drzwiach z pytaniem „a nie ma tu kogoś jeszcze?”."}]}

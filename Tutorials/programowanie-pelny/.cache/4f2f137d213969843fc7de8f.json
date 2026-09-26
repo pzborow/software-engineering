@@ -1,0 +1,1 @@
+{"verdicts": [{"index": 0, "ok": false, "problem": "Wyjaśnienie jest odwrócone: w wpisie `45,5` nie ma kropki, tylko przecinek, więc `False` bierze się stąd, że w tekście został przecinek zamiast kropki, a nie odwrotnie."}]}

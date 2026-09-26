@@ -1,0 +1,1 @@
+{"ok": false, "needs": [{"kind": "spójność", "detail": "Tekst mówi, że błąd czytelnik zobaczy „w `kasa.py`”, ale plik programu w kanonie nazywa się `rozlicz.py` (skrypt główny). Nazwa `kasa.py` nie została zadeklarowana jako zmiana. Zamień na `rozlicz.py`.", "severity": "blokująca", "source": "kanon: rozlicz.py", "target": "rozlicz.py", "status": "nowa"}]}

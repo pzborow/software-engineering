@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "przykład", "detail": "Zdanie, że po `return` funkcja od razu kończy pracę i nic pod nim się nie wykona, nie ma przykładu. Można dodać krótki kod, np. funkcję z `return 1` i `print(\"tu nie dojdziemy\")` pod spodem, i pokazać, że napis się nie wypisze.", "severity": "sugestia", "target": "akapit o `return` kończącym funkcję"}]}

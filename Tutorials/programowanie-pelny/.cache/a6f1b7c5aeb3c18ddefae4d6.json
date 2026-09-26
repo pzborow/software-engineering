@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "odwołanie", "detail": "Ostatni akapit mówi o pliku czytelnika z literówką `prnt` w drugiej linii. Ta sekcja tego nie pokazuje. Warto dodać krótkie przypomnienie, o który plik chodzi, albo przykład z kodem i komunikatem błędu.", "severity": "sugestia", "target": "U siebie w pliku masz komentarz w pierwszej linii i literówkę `prnt`"}]}

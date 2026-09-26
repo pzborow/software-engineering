@@ -1,0 +1,1 @@
+{"items": [{"module": "dowcipy", "title": "Odpowiedź „no, prawie”", "body": "Zapytany, czy współlokator zwrócił pieniądze, program odpowiada `True` albo `False`. Odpowiedź „no, prawie oddał” nie należy do typu `bool`, choć w prawdziwych rozliczeniach zdarza się najczęściej."}]}

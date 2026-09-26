@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "wyjaśnienie", "detail": "W funkcji `na_osobe(suma, osoby)` parametr nazywa się `suma`, tak samo jak funkcja `suma`. Wewnątrz `na_osobe` nazwa zasłania funkcję, a początkujący czytelnik może się pomylić. Lepiej nazwać parametr np. `kwota`.", "kind_note": "", "severity": "sugestia", "target": "na_osobe(suma, osoby)", "status": "nowa"}]}

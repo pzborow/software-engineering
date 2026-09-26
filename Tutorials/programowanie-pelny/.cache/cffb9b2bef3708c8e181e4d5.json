@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "tempo", "detail": "Drugi blok kodu wprowadza pętlę `for` i akumulator `razem`, choć sekcja jest o nazwach. Jeśli pętla nie była wcześniej omówiona, czytelnik gubi wątek. Można skrócić funkcję do jednej linii, np. `return sum(wydatki)`, albo zostawić tylko `udzial_na_osobe`.", "severity": "sugestia", "target": "suma_wydatkow (drugi blok kodu)"}]}

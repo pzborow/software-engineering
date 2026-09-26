@@ -1,0 +1,1 @@
+{"ok": true, "needs": [], "sources": [{"title": "An Informal Introduction to Python (Python 3.13)", "url": "https://docs.python.org/3.13/tutorial/introduction.html", "supports": "Komentarz zaczyna się od # i ciągnie do końca linii, może stać w osobnej linii lub za kodem; dzielenie / zawsze zwraca float, więc print(300 / 3) daje 100.0."}]}

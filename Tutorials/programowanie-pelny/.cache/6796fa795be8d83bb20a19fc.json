@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "wyjaśnienie", "detail": "wystarczy jedno zdanie; pełne omówienie w pytaniu 51. Warto dodać, że TypeError to nazwa błędu w rodzaju „ta operacja nie pasuje do tego rodzaju danych”.", "severity": "sugestia", "target": "TypeError", "source": "", "status": "nowa"}]}

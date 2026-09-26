@@ -1,0 +1,1 @@
+{"reference_id": "ref-41", "status": "brak", "section_id": "sec-09-jak-czytac-komunikat-o-bledzie", "explanation": "Sekcja pokazuje komunikat o błędzie tylko na przykładzie blad_pusta.py (ścieżka /home/ania/...). Nie ma w niej kasa.py ani polecenia, by czytelnik wywołał błąd we własnym pliku. Nawet uwaga o ścieżce u czytelnika nie zastępuje obiecanego pokazu w kasa.py."}

@@ -1,0 +1,1 @@
+{"ok": true, "needs": [], "sources": [{"title": "Python 3.13 – Built-in Functions: input()", "url": "https://github.com/python/cpython/blob/v3.13.9/Doc/library/functions.rst", "supports": "input(\"...\") wypisuje prompt na standardowe wyjście, czyta linię i zwraca ją jako tekst (str); szkic zapytaj_o_wydatek() jest poprawną składnią w Pythonie 3.13."}]}

@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "spójność", "detail": "Przykład zaczyna od gotowego „wyniku 39.0 zamiast 26.0”, choć w poprzedniej sekcji test dawał 26 dla 78 i 3 osób; nie wiadomo, skąd wzięło się 2 osoby. Można jednym zdaniem zaznaczyć, że ktoś uruchomił program z błędną liczbą osób.", "target": "przykład z na_osobe", "severity": "sugestia"}]}

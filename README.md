@@ -24,7 +24,7 @@ Most notes are written in Polish, some in English. Top-level notebooks:
 
 | Directory | Contents |
 |---|---|
-| `Software engineering/` | how to design and change systems, beyond a single language: `Architecture/` (layered, hexagonal, onion, clean, DDD, CQRS), `Microservices/`, `Legacy/` (working with legacy code), `Design patterns/` (GoF in Python), `Principles/` (OOP, SOLID, DRY, KISS, YAGNI) |
+| `Software engineering/` | how to design and change systems, beyond a single language: `Architecture/` (layered, hexagonal, onion, clean, DDD, CQRS), `Microservices/`, `Legacy/` (working with legacy code), `Security/` (application security for developers, with Django and DRF), `Design patterns/` (GoF in Python), `Principles/` (OOP, SOLID, DRY, KISS, YAGNI) |
 | `Databases/` | `RDBMS/` (SQL), `NoSQL/MongoDB/`, `Graph/ArangoDB/`, `Graph/RDF Jena Fuseki/`, `Search/Elasticsearch/` |
 | `Cloud/` | `AWS/` (S3, RDS, EC2, Lambda, CloudWatch, containers, CI/CD), `Google/` |
 | `Python/`, `Django/` | short how-tos and snippets: testing, logging, packaging, DRF, ORM queries |
@@ -34,7 +34,7 @@ Most notes are written in Polish, some in English. Top-level notebooks:
 | `Test uml/` | PlantUML experiments |
 | loose `.md` files at the root | single notes that are not in any sub-notebook |
 
-Most long tutorials have numbered chapters and a glossary. The ones under `Software engineering/Architecture/` and `Software engineering/Legacy/` also link each term's first mention to the glossary and end every chapter with a "Co zapamiętać" summary and interview questions with hidden answers. `Design patterns/` and `Principles/` were converted from Jupyter notebooks, so each code block is followed by its output.
+Most long tutorials have numbered chapters and a glossary. The ones under `Software engineering/Architecture/`, `Software engineering/Legacy/` and `Software engineering/Security/` also link each term's first mention to the glossary and end every chapter with a "Co zapamiętać" summary and interview questions with hidden answers. `Design patterns/` and `Principles/` were converted from Jupyter notebooks, so each code block is followed by its output.
 
 ## Workflow
 

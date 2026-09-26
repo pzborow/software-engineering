@@ -1,0 +1,1 @@
+{"ok": true, "needs": [], "sources": [{"title": "CPython 3.13 tokenizer tests: float literals", "url": "https://github.com/python/cpython/blob/v3.13.9/Lib/test/tokenizedata/tokenize_tests.txt", "supports": "Ułamek dziesiętny zapisuje się z kropką (np. `x = 3.14`), więc `kwota = 45.5` jest poprawnym literałem float."}]}

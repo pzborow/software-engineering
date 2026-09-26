@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "skrócenie", "detail": "Sekcja w dużej mierze powtarza poprzednią (bool, True/False, cudzysłów vs tekst, ten sam kod z type). Można skrócić akapit o cudzysłowie lub odwołać się do niego jednym zdaniem.", "severity": "sugestia", "target": "akapit o wielkiej literze i cudzysłowie"}]}

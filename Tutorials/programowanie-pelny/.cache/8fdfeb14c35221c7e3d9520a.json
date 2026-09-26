@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "spójność", "detail": "Przykład w tekście używa zmiennej `kwota`, a w kasa.py jest `kwota_wydatku`. Można użyć `kwota_wydatku` w przykładzie albo dodać zdanie, że to ten sam warunek zapisany krócej. Wynik jest taki sam.", "severity": "sugestia", "target": "przykład kodu w sekcji"}]}

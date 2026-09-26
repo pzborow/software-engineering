@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "fakt", "detail": "Zdanie „dostajesz tylko kopię wartości” jest nieścisłe: Python zwraca odwołanie do tego samego obiektu, nie kopię. Dla tekstów z przykładu nie ma to znaczenia. Można napisać: „dostajesz wartość, a lista zostaje bez zmian”.", "severity": "sugestia", "target": "Odczyt niczego nie zmienia: ... kopię wartości", "status": "nowa"}]}

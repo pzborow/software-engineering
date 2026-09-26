@@ -1,0 +1,1 @@
+{"reference_id": "ref-51", "status": "brak", "section_id": "sec-09-jak-czytac-komunikat-o-bledzie", "explanation": "Sekcja pokazuje tylko przykład ZeroDivisionError z cudzą ścieżką (/home/ania/...). Nie ma w niej TypeError ani prośby, by czytelnik wywołał błąd we własnym pliku i go zobaczył. Uwaga „Ścieżka u Ciebie będzie inna” dotyczy ścieżki, a nie takiego ćwiczenia."}

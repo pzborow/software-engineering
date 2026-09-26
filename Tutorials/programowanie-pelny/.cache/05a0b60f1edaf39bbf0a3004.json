@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "język", "detail": "Zdanie „To właśnie po takim zestawie chodzi pętla `for`” brzmi niezręcznie. Lepiej: „Właśnie takie zestawy przechodzi pętla `for`”.", "severity": "sugestia", "target": "To właśnie po takim zestawie chodzi pętla for"}]}

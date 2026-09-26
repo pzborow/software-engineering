@@ -1,0 +1,1 @@
+{"ok": false, "needs": [{"kind": "spójność", "target": "kasa.py", "detail": "Tekst odsyła do pliku `kasa.py`, a w kanonie plik programu (skrypt główny) nazywa się `rozlicz.py` (w katalogu wspolna_kasa). Nie ma zadeklarowanej zmiany nazwy. Popraw na `rozlicz.py`.", "severity": "blokująca", "source": "kanon: rozlicz.py", "status": "nowa"}]}

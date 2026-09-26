@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "wyjaśnienie", "detail": "Słowo `print` pojawia się w tekście i w kodzie, ale nie jest wyjaśnione. Wystarczy jedno zdanie, że `print` każe programowi wypisać coś na ekranie. Czytelnik może to zgadnąć z wyniku, więc to tylko sugestia.", "severity": "sugestia", "target": "print", "source": "sekcja"}]}

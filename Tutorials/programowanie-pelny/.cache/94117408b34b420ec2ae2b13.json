@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "przykład", "detail": "Potęgowanie `**` i nawiasy zmieniające kolejność działań są tylko wymienione, bez żadnego wyniku. Wystarczą dwie linie w pierwszym bloku, np. `print(2 ** 3)` i `print((2 + 3) * 4)`, z wynikami 8 i 20.", "target": "potęgowanie i kolejność działań", "severity": "sugestia"}]}

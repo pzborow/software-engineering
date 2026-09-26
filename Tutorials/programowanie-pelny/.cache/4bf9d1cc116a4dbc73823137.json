@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "konkret", "detail": "Przykład w kodzie ma mało życiowy sens: progi 40 i 5 osób są losowe. Warto jednym zdaniem wskazać, co oznacza każdy warunek w kasie (np. „wysoka kwota lub dużo osób”), albo dać codzienne porównanie („i” = bilet ORAZ dokument).", "severity": "sugestia", "target": "przykład kodu", "source": "kwota > 40 and liczba_osob > 5"}]}

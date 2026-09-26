@@ -1,0 +1,1 @@
+{"verdicts": [{"index": 0, "ok": true}, {"index": 1, "ok": false, "problem": "Powtarza temat i puentę dodatku 0 (monolit rozbity na trzy części, dzięki czemu znaleziono błąd w jednej z nich) i tylko streszcza sekcję, a do tego zawiera błąd językowy „w wczytywaniu”."}]}

@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "konkret", "detail": "Pytanie brzmi „do czego służy”, a odpowiedź to jedno ogólne zdanie („program zapamiętuje daną i może do niej wrócić”). Brakuje krótkiego, życiowego powodu, np. jedna liczba użyta w wielu miejscach (kwota użyta do podatku i sumy) i zmieniana w jednym miejscu.", "severity": "sugestia", "target": "pierwszy akapit"}]}

@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "konkret", "detail": "Nie jest jasne, gdzie wpisać polecenie ani czy terminal trzeba otworzyć w folderze z plikiem. Początkujący może dostać błąd „nie znaleziono pliku”. Wystarczy jedno zdanie, np. że terminal otwieramy w folderze z rozlicz.py.", "target": "terminal / python rozlicz.py", "severity": "sugestia", "source": "", "status": "nowa"}]}

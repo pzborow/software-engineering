@@ -1,0 +1,1 @@
+{"ok": true, "needs": [], "sources": [{"title": "Built-in Functions (Python 3.13)", "url": "https://docs.python.org/3.13/library/functions.html", "supports": "input(prompt) wypisuje pytanie bez końcowego newline'a i zwraca str (z odciętym końcowym znakiem nowej linii); float('abc') zgłasza ValueError, a float() przyjmuje tekst z liczbą dziesiętną, np. '45.5'."}]}

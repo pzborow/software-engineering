@@ -1,0 +1,1 @@
+{"verdicts": [{"index": 0, "ok": false, "problem": "Python nie otwiera pliku .docx i nie \"znajduje\" w nim ustawień stron, tylko zgłasza błąd, bo .docx to spakowany format, więc opis jest technicznie nieprawdziwy i niespójny (plik .py zapisany jako .docx)."}, {"index": 1, "ok": true}]}

@@ -1,0 +1,1 @@
+{"ok": true, "needs": [], "sources": [{"title": "Built-in Functions — open() (Python 3.13)", "url": "https://docs.python.org/3.13/library/functions.html", "supports": "Tryby 'r' (czytanie, plik musi istnieć), 'w' (zapis z obcięciem starej treści), 'a' (dopisywanie na końcu) oraz parametr encoding w trybie tekstowym; przykład z open(..., encoding='utf-8') działa."}]}

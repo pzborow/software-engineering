@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "konkret", "detail": "Lista `wydatki` pojawia się tylko w jednym zdaniu, bez żadnych wartości. Warto pokazać ją w jednej linii, np. `wydatki = [45.50, 120, 30]`. Czytelnik zobaczyłby, że lista może zawierać liczby, a nie tylko teksty, i że wiąże się to z projektem „Wspólna Kasa”.", "severity": "sugestia", "target": "wydatki / Wspólna Kasa"}]}

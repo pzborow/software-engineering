@@ -1,0 +1,1 @@
+{"ok": true, "needs": [], "sources": [{"title": "Built-in Functions: input() (Python 3.13)", "url": "https://docs.python.org/3.13/library/functions.html#input", "supports": "input(\"Kto zapłacił? \") jest poprawnym wywołaniem: argument prompt jest wypisywany na standardowe wyjście, a funkcja zwraca tekst (str), więc szkic z zapytaj_o_wydatek() jest zgodny z dokumentacją."}]}

@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "przykład", "detail": "Zapis z literą f jest podany tylko w jednym wierszu, bez wyniku. Warto pokazać krótki blok kodu z wynikiem (np. „Ania zapłaciła 45.5 zł”), żeby było widać, że nie trzeba tu użyć str().", "severity": "sugestia", "target": "f\"{imie} zapłaciła {kwota} zł\""}]}

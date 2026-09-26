@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "język", "detail": "Zwrot „którą nazwałeś” zakłada płeć czytelnika. Lepiej użyć formy neutralnej, np. „komórka, której nadano nazwę „kwota”” albo „komórka o nazwie „kwota””.", "severity": "sugestia", "target": "To trochę jak komórka w arkuszu, którą nazwałeś „kwota”"}]}

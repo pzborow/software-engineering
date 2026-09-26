@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "wyjaśnienie", "detail": "Zapis `len(osoby)` pojawia się bez wyjaśnienia. Wystarczy jedno zdanie, że `len` zwraca liczbę elementów listy (dla trzech osób 3), więc `len(osoby) - 1` daje 2. Pełne omówienie funkcji jest w pytaniu 38.", "kind_note": "", "severity": "sugestia", "target": "len(osoby)", "source": "Odczyt elementu listy"}]}

@@ -1,0 +1,1 @@
+{"ok": true, "needs": [], "sources": [{"title": "Built-in Types — Boolean Type (Python 3.13)", "url": "https://docs.python.org/3.13/library/stdtypes.html", "supports": "bool ma dwie stałe True i False, zapisywane wielką literą; type(zaplacono) wypisuje <class 'bool'>; kod z sekcji daje podany wynik."}]}

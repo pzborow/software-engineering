@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "skrócenie", "detail": "Ostatni akapit (o pliku funkcje.py, krótszych nazwach i błędzie w ostatniej linii) odciąga od tematu ponownego użycia i odsyła do warsztatu. Można go skrócić do jednego zdania albo przenieść do warsztatu.", "severity": "sugestia", "target": "akapit o funkcje.py", "source": "ostatni akapit"}]}

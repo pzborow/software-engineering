@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "diagram", "detail": "Można dodać krótki rysunek tekstowy przepływu: warunek -> True: wykonaj wcięte linie / False: pomiń. Ale sekcja jest zrozumiała także bez niego, a limit słów jest bliski.", "severity": "sugestia", "target": "przepływ warunku"}]}

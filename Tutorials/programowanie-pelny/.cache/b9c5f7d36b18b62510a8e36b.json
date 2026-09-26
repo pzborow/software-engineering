@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "spójność", "detail": "Tekst mówi, że mechanizm to pętla i funkcja, ale w przykładzie jest tylko pętla (i wbudowane round). Warto albo pominąć funkcję w zdaniu, albo zapakować obliczenia w własną funkcję.", "severity": "sugestia", "target": "Mechanizm znasz: to pętla i funkcja"}]}

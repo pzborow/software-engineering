@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "język", "detail": "Sformułowanie „ile razy albo dla czego ją powtórzyć” jest niejasne (czytelnik może odczytać je jako „dlaczego”). Lepiej: „ile razy albo dla jakich danych ją powtórzyć”.", "severity": "sugestia", "target": "pierwsze zdanie sekcji", "source": "Czym jest pętla"}]}

@@ -1,0 +1,1 @@
+{"ok": true, "needs": [], "sources": [{"title": "Lexical analysis — Python 3.13 documentation", "url": "https://docs.python.org/3.13/reference/lexical_analysis.html", "supports": "Komentarz zaczyna się od # (poza literałem napisowym), kończy z końcem linii, jest ignorowany przez składnię i może stać za instrukcją w tej samej linii."}]}

@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "odwołanie", "detail": "Przykład `na_osobe(suma(mazury), 3)` używa `suma` i `mazury`, które nie są zdefiniowane w tej sekcji. Czytelnik może nie wiedzieć, skąd się wzięły. Warto przypomnieć, że to funkcja i zmienna z wcześniejszego działu, albo podać krótki samodzielny przykład.", "severity": "sugestia", "target": "na_osobe(suma(mazury), 3)"}]}

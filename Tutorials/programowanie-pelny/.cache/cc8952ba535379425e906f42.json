@@ -1,0 +1,1 @@
+{"verdicts": [{"index": 0, "ok": false, "problem": "Powtarza motyw wcześniejszych wpisów („Raport, który wyglądał wiarygodnie” i „Marta ufa ciszy zamiast rachunkowi”): skrypt po cichu podaje zaniżony wynik, a błąd wychodzi dopiero po ręcznym sprawdzeniu."}]}

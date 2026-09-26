@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "przykład", "detail": "Przypadki brzegowe są wspomniane (pusta lista wydatków), ale kod ich nie pokazuje. Można dodać krótki test, np. co się dzieje przy `na_osobe(100, 0)` (ZeroDivisionError), albo zmienić przykład na taki, który występuje w kodzie (`na_osobe(0, 4)`).", "kind_note": "", "severity": "sugestia", "target": "przypadki brzegowe"}]}

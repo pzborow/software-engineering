@@ -1,0 +1,1 @@
+{"gotchas": [{"title": "Zmiana wartości zmienia też typ", "detail": "Po `kwota = 60` zmienna z liczby dziesiętnej (`45.5`) staje się liczbą całkowitą. Program nie zgłasza błędu, więc dalsze wyniki mogą wyglądać inaczej, niż się spodziewasz (np. `70` zamiast `70.0`).", "trigger": "kwota = 60", "scope": "temat", "concept": "zmienna i jej wartość"}]}

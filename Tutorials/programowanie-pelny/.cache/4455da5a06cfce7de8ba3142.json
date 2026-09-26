@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "wyjaśnienie", "detail": "Słowo „skrypt” pojawia się w ostatnim zdaniu bez definicji i bez hasła w glosariuszu. Wystarczy dopisać „(krótki program w pliku)” albo zastąpić je słowem „program”.", "severity": "sugestia", "target": "skryptu", "source": "ostatni akapit"}]}

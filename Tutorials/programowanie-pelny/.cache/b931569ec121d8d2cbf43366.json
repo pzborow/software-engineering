@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "przykład", "detail": "Sygnał 'kopiujesz linię i zmieniasz jedną wartość' nie ma pokazanego kodu. Warto dać wersję ręczną (trzy razy print z inną nazwą) przed pętlą, żeby czytelnik zobaczył kontrast.", "severity": "sugestia", "target": "Powtarzanie ręczne / przykład z pętlą"}]}

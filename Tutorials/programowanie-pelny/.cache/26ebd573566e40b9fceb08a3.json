@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "spójność", "detail": "Tekst mówi, że mechanizm to pętla i funkcja, ale przykład zawiera tylko pętlę, bez żadnej funkcji (poza wbudowanymi print i len). Można dopisać, że tu funkcje to print i len, albo pokazać własną funkcję.", "severity": "sugestia", "target": "Mechanizm znasz: to pętla po danych i funkcja"}]}

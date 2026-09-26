@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "wyjaśnienie", "detail": "wystarczy jedno zdanie; pełne omówienie w pytaniu 25. Tekst używa słowa „przypisanie” bez wyjaśnienia. Wystarczy dopisać, że to zapisanie wartości do zmiennej znakiem =. Kod pokazuje to pośrednio, więc to tylko sugestia.", "severity": "sugestia", "target": "po drugim przypisaniu"}]}

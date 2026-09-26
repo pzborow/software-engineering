@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "spójność", "detail": "Przykład w tekście używa zmiennej `kwota`, a w kasa.py jest `kwota_wydatku`. Można dodać zdanie, że w kasa.py nazwa jest dłuższa (kwota_wydatku), żeby czytelnik nie przepisał `kwota` do pliku.", "severity": "sugestia", "target": "Przykład w tekście sekcji"}]}

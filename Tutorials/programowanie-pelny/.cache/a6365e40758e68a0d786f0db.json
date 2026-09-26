@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "skrócenie", "detail": "Zdanie „Obiecaliśmy w poprzedniej sekcji, że zajmiemy się tym osobno, więc oto ono” nic nie wnosi. Poprzednia sekcja nie zawiera takiej obietnicy, więc zdanie może zmylić czytelnika. Warto je usunąć.", "severity": "sugestia", "target": "zdanie o obietnicy z poprzedniej sekcji", "source": "nowa sekcja, pierwszy akapit"}]}

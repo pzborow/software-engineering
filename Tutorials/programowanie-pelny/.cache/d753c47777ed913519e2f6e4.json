@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "spójność", "detail": "Tekst mówi „mają być trzy” osoby, ale nigdzie nie wyjaśnia skąd ta oczekiwana wartość (Mazury, 3 osoby, wynik 26.0). Warto dodać zdanie, np. „Na wyjazd na Mazury jedzie troje osób, więc oczekujemy 78.0 / 3 = 26.0”.", "severity": "sugestia", "target": "Sekcja: przykład z wynikiem 39.0", "source": "", "status": "nowa"}]}

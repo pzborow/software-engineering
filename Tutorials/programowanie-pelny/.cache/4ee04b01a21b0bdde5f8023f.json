@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "spójność", "detail": "Tekst mówi, że program „zajmuje procesor”, ale przykład z time.sleep(1) prawie go nie obciąża. Można zmienić na: „Program wygląda na zawieszony (a pętla bez sleep zajęłaby procesor) i nigdy nie pokaże sumy wydatków.”", "severity": "sugestia", "target": "akapit „Problem jest praktyczny”"}]}

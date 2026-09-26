@@ -1,0 +1,1 @@
+{"ok": true, "needs": [{"kind": "wyjaśnienie", "detail": "wystarczy jedno zdanie; pełne omówienie w pytaniu 13. Np. że kod to zapisane instrukcje programu, czyli tekst, który pisze programista.", "severity": "sugestia", "target": "kodu", "source": "Na razie nie piszemy kodu", "status": "nowa"}]}
