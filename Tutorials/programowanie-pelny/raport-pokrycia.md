@@ -30,7 +30,7 @@ Pytania: 61, wszystkie z odpowiedzią: ✅ pokryte 61 · 🟡 częściowo 0 · �
 
 **Kontrola jakości**
 
-- Linki: sprawdzone: 1504, zepsute: 0.
+- Linki: sprawdzone: 1503, zepsute: 0.
 - Kod: `text` 56, `python` 46; wszystko w językach perspektywy.
 - Poprawki wymuszone przez recenzentów: 41, blokujące uwagi: 96 (weryfikator_odwołań 25, strażnik_przykład 17, strażnik_warsztat 14, kontrola_glosariusza 9, weryfikator_pojęć 8, znudzony_czytelnik 6, kontrola_odwołań 6, kontrola_przykład 4, kontrola_warsztat 3, sprawdzacz_wyników 3, kontrola_kodu 1).
 
@@ -49,7 +49,7 @@ Pytania: 61, wszystkie z odpowiedzią: ✅ pokryte 61 · 🟡 częściowo 0 · �
   - … i 22 więcej
 - Sugestie: 210. Szczegóły w sekcjach na końcu raportu.
 
-**Koszt:** $38.37 · wywołań modelu: 949 · suma czasów wywołań: 156 min (recenzenci pracują równolegle, więc faktycznie mniej).
+**Koszt:** $38.79 · wywołań modelu: 989 · suma czasów wywołań: 159 min (recenzenci pracują równolegle, więc faktycznie mniej).
 
 ## Pytania według działów
 

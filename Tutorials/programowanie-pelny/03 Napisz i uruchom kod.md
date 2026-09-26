@@ -21,9 +21,9 @@ algorytm (dział 02) → kod w pliku → interpreter → wynik lub błąd
 
 Kod źródłowy to tekst programu zapisany w [języku programowania](00%20Glosariusz.md#język-programowania), który czyta i pisze człowiek. To „źródło”, z którego komputer dopiero dostaje coś do wykonania.
 
-<a id="lm-15"></a>Fizycznie kod źródłowy jest zwykłym plikiem tekstowym, tak jak notatka czy lista zakupów. Różnica polega na treści: każda linia to [instrukcja](00%20Glosariusz.md#instrukcja) zapisana według ścisłych reguł [składni](00%20Glosariusz.md#składnia). Ten sam [algorytm](00%20Glosariusz.md#algorytm), który wcześniej opisywaliśmy słowami i schematem, tu dostaje zapis, którego nie da się zrozumieć na dwa sposoby.
+<a id="lm-15"></a>Fizycznie kod źródłowy jest zwykłym plikiem tekstowym, tak jak notatka czy lista zakupów. Różnica polega na treści: każda linia to [instrukcja](00%20Glosariusz.md#instrukcja) zapisana według ścisłych reguł [składni](00%20Glosariusz.md#składnia). [Ten sam algorytm, który wcześniej opisywaliśmy słowami i schematem](02%20My%C5%9Bl%20krok%20po%20kroku.md#lm-8), tu dostaje zapis, którego nie da się zrozumieć na dwa sposoby.
 
-<a id="ref-24"></a><a id="ref-16"></a>Kod źródłowy zapisujemy w pliku o rozszerzeniu zależnym od języka. Pliki [Pythona](00%20Glosariusz.md#python) kończą się na `.py`. <a id="ref-19"></a>Taki plik będzie miał [nasz przykład, który będzie nam towarzyszył](#ref-35): „Wspólna Kasa”. Zaczyna się od pliku `rozlicz.py`:
+Kod źródłowy zapisujemy w pliku o rozszerzeniu zależnym od języka. Pliki [Pythona](00%20Glosariusz.md#python) kończą się na `.py`. <a id="ref-19"></a>Taki plik będzie miał [nasz przykład, który będzie nam towarzyszył](#ref-35): „Wspólna Kasa”. <a id="ref-16"></a><a id="ref-24"></a>Zaczyna się od pliku `rozlicz.py`:
 
 <a id="ref-25"></a>
 
@@ -38,7 +38,7 @@ Wspólna Kasa
 100.0
 ```
 
-Plik sam niczego nie robi. Dopiero osobny program czyta go i wykonuje linia po linii, a [jak to działa, pokażemy przy uruchamianiu programu](#ref-34).
+Plik sam niczego nie robi. Dopiero osobny program czyta go i wykonuje linia po linii, a [jak to działa, pokażemy przy uruchamianiu programu](#ref-38).
 
 Konsekwencja: kod źródłowy możesz otworzyć, przeczytać i poprawić w każdym edytorze tekstu. Dlatego to on jest tym, co programista naprawdę tworzy i zmienia.
 
@@ -62,7 +62,7 @@ Podświetlanie składni to kolorowanie fragmentów kodu według ich roli. Liter�
 
 Przykładem będzie VS Code, ale wybór edytora jest sprawą gustu. Zasady pisania kodu są w każdym takie same.
 
-U siebie sprawdzisz teraz, czy działa Python (jeden z języków programowania, którego użyjemy w tym kursie), i zapiszesz pierwszy plik. Uruchomimy go w następnej części, [gdy wyjaśnimy, co to znaczy uruchomić program](#ref-37).
+U siebie sprawdzisz teraz, czy działa Python (jeden z języków programowania, którego użyjemy w tym kursie), i zapiszesz pierwszy plik. Uruchomimy go w następnej części, gdy wyjaśnimy, co to znaczy uruchomić program.
 
 > **Warsztat: zrób u siebie**
 
@@ -108,7 +108,7 @@ Plik obrazu: `ilustracje/03-pisz-kod-w-edytorze-1.png`
 
 <a id="ref-37"></a>Uruchomić program to polecić komputerowi, by zaczął wykonywać instrukcje zapisane w pliku, od pierwszej do ostatniej. Sam kod źródłowy leży wtedy jak przepis w szufladzie: nic się nie dzieje, dopóki ktoś nie zacznie go realizować.
 
-<a id="ref-34"></a>Plik z kodem czyta i wykonuje linia po linii inny program. W Pythonie robi to sam Python, a my podajemy mu nazwę pliku. Czym dokładnie jest taki wykonawca i czym różni się od kompilatora, [wyjaśnimy w następnej części](#ref-38).
+<a id="ref-34"></a>Plik z kodem czyta i wykonuje linia po linii inny program. W Pythonie robi to sam Python, a my podajemy mu nazwę pliku. Czym dokładnie jest taki wykonawca i czym różni się od kompilatora, wyjaśnimy w następnej części.
 
 Polecenie wpisujemy w [terminalu](00%20Glosariusz.md#terminal), czyli oknie, w którym komputer przyjmuje polecenia pisane tekstem i odpowiada tekstem. U siebie masz już plik `kasa.py`:
 
@@ -171,7 +171,7 @@ kompilator:   kod źródłowy --> [kompilator] --> plik programu --> uruchomieni
 interpreter:  kod źródłowy --> [interpreter] --> uruchomienie
 ```
 
-<a id="ref-30"></a>Konsekwencja dla Wspólnej Kasy: nie ma osobnego kroku budowania. Zmieniasz `rozlicz.py`, zapisujesz i uruchamiasz ponownie. W praktyce Python najpierw przekłada plik na pośredni zapis, ale z Twojej strony to jedno polecenie.
+<a id="ref-30"></a>Konsekwencja dla Wspólnej Kasy: nie ma osobnego kroku budowania. [Zmieniasz `rozlicz.py`, zapisujesz i uruchamiasz ponownie](#lm-18). W praktyce Python najpierw przekłada plik na pośredni zapis, ale z Twojej strony to jedno polecenie.
 
 > **Z przymrużeniem oka:** Kompilator to tłumacz, który zabiera całą książkę i oddaje ją przetłumaczoną dopiero na końcu. Interpreter to tłumacz symultaniczny: mówi na bieżąco, więc o błędzie w ostatnim rozdziale dowiesz się dopiero, gdy do niego dojdzie.
 
@@ -267,7 +267,7 @@ Komentarz ma sens, gdy podaje powód lub kontekst („300 zł na troje osób”)
 
 Komentarz może się też zestarzeć. W przykładzie wyżej linia `# udział na dwie osoby` stoi nad dzieleniem przez 3, więc kłamie, a Python tego nie zauważy, bo jej nie czyta. Zmieniając kod, poprawiaj też komentarz.
 
-U siebie w pliku masz komentarz w pierwszej linii i literówkę `prnt` w drugiej. Komentarz nie przeszkadza w znalezieniu błędu: popraw literówkę i uruchom plik ponownie.
+[U siebie w pliku masz komentarz w pierwszej linii i literówkę `prnt` w drugiej](#lm-21). Komentarz nie przeszkadza w znalezieniu błędu: popraw literówkę i uruchom plik ponownie.
 
 > **Warsztat: zrób u siebie**
 

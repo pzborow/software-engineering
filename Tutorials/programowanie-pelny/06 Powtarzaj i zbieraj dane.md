@@ -32,7 +32,7 @@ Pętla to instrukcja, która każe programowi wykonać ten sam fragment kodu wie
 
 Jedno powtórzenie fragmentu nazywamy [iteracją](00%20Glosariusz.md#iteracja). Pętla `for` wykonuje po jednej iteracji dla każdego elementu z zestawu danych. Taki zestaw to na razie po prostu lista wartości w nawiasach kwadratowych; [jej zapis omówimy osobno](#ref-75).
 
-Wcięte linie pod `for` to ciało pętli, tak samo jak przy `if`. Nazwa po słowie `for` to zmienna, która w każdej iteracji dostaje kolejny [element](00%20Glosariusz.md#element-listy):
+Wcięte linie pod `for` to ciało pętli, [tak samo jak przy `if`](05%20Podejmuj%20decyzje%20w%20programie.md#zapisz-warunek-z-if). Nazwa po słowie `for` to zmienna, która w każdej iteracji dostaje kolejny [element](00%20Glosariusz.md#element-listy):
 
 ```python
 osoby = ["Ania", "Bartek", "Celina"]
@@ -48,7 +48,7 @@ Cześć, Celina
 Koniec
 ```
 
-<a id="lm-39"></a>Ciało wykonało się trzy razy, bo na liście są trzy osoby. Za każdym razem `imie` miało inną wartość. Ostatni `print` nie ma wcięcia, więc pętla nie obejmuje go i wykonuje się raz, po jej zakończeniu.
+<a id="lm-39"></a>Ciało wykonało się trzy razy, bo na liście są trzy osoby. Za każdym razem `imie` miało inną wartość. [Ostatni `print` nie ma wcięcia](05%20Podejmuj%20decyzje%20w%20programie.md#lm-36), więc pętla nie obejmuje go i wykonuje się raz, po jej zakończeniu.
 
 Pętla ma więc początek, powtarzane kroki i koniec, a koniec wynika z [warunku zakończenia](00%20Glosariusz.md#warunek-zakończenia): w `for` jest nim wyczerpanie elementów. W „Wspólnej Kasie” dzięki temu jeden zapis obsłuży trzy osoby, ale też trzydzieści.
 
@@ -154,7 +154,7 @@ Koniec
 
 ## Zastąp kopiowanie pętlą
 
-Pętli warto użyć, gdy ta sama czynność dotyczy wielu elementów albo liczba powtórzeń zależy od danych. Jeśli kopiujesz linię i zmieniasz w niej tylko jedną wartość, to znak, że potrzebna jest pętla.
+Pętli warto użyć, gdy ta sama czynność dotyczy wielu elementów albo liczba powtórzeń zależy od danych. Jeśli kopiujesz linię i zmieniasz w niej tylko jedną wartość, to znak, że [potrzebna jest pętla](00%20Glosariusz.md#pętla).
 
 Powtarzanie ręczne ma dwie wady. Poprawkę trzeba wprowadzić w wielu miejscach, a przy każdej łatwo o pomyłkę. Poza tym taki kod nie dopasuje się do danych: napisany na trzy osoby nie obsłuży czwartej.
 
@@ -180,13 +180,13 @@ Zmienia się tylko `imie`, więc reszta linii jest zapisana jeden raz. Poprawka 
 | Dwie różne czynności, każda raz | zwykłe linie |
 | Pojedyncza czynność, która się nie powtarza | zwykła linia |
 
-Pętla `for` ma z góry znany koniec. [Pętlę, która nigdy się nie kończy, omówimy w następnej kolejności](#ref-79).
+Pętla `for` ma z góry znany koniec. Pętlę, która nigdy się nie kończy, omówimy w następnej kolejności.
 
 ## Unikaj pętli nieskończonej
 
 <a id="ref-79"></a>[Pętla nieskończona](00%20Glosariusz.md#pętla-nieskończona) to pętla, która nigdy nie dochodzi do końca, bo jej warunek zakończenia nigdy nie zostaje spełniony. Program powtarza wtedy ten sam fragment bez końca, więc nie dociera do dalszych linii i nie oddaje wyniku.
 
-Pętla `for`, którą znasz, kończy się sama, bo zestaw danych się wyczerpuje. Pętla `while` („dopóki”) działa inaczej: powtarza wcięte linie, dopóki warunek daje `True`. Jeśli warunek jest zawsze prawdziwy, każda kolejna iteracja zaczyna się od nowa.
+[Pętla `for`, którą znasz, kończy się sama](#powtórz-kod-pętlą), bo zestaw danych się wyczerpuje. Pętla `while` („dopóki”) działa inaczej: powtarza wcięte linie, dopóki warunek daje `True`. Jeśli warunek jest zawsze prawdziwy, każda kolejna iteracja zaczyna się od nowa.
 
 ```python
 import time
@@ -278,7 +278,7 @@ Funkcja `len()` podaje długość listy, czyli liczbę elementów. Python wypisu
 
 <a id="lm-42"></a>Kolejność ma znaczenie: „Ania” jest pierwsza i tak zostaje. Lista może być też dłuższa albo pusta (`[]`), a program nie musi z góry znać jej rozmiaru. Dlatego pasuje do „Wspólnej Kasy”: `osoby` to uczestnicy wyjazdu, a `wydatki` to zapłacone rachunki, których przybywa.
 
-[Jak sięgnąć po jeden element, omówimy osobno](#ref-83). To, co lista daje pętli, zobaczysz [przy przechodzeniu przez wszystkie elementy](#przejdź-przez-całą-listę).
+Jak sięgnąć po jeden element, omówimy osobno. To, co lista daje pętli, zobaczysz [przy przechodzeniu przez wszystkie elementy](#przejdź-przez-całą-listę).
 
 _[źródła: 1](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.md#06-powtarzaj-i-zbieraj-dane)_
 
@@ -288,7 +288,7 @@ _[źródła: 1](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.md#06-powtarzaj-i-zbiera
 
 <a id="ref-83"></a>Po element listy sięgasz przez jego numer w nawiasach kwadratowych: `osoby[0]`. Numer nazywa się [indeksem](00%20Glosariusz.md#indeks) i liczenie zaczyna się od zera, więc pierwszy element ma indeks 0, drugi 1, trzeci 2.
 
-Wygląda to dziwnie, ale indeks mówi, o ile miejsc od początku listy się przesunąć. Pierwszy element jest na samym początku, więc przesunięcie wynosi zero. [Kolejność zostaje taka, jak w sekcji Czym jest lista danych](#lm-42).
+Wygląda to dziwnie, ale indeks mówi, o ile miejsc od początku listy się przesunąć. Pierwszy element jest na samym początku, więc przesunięcie wynosi zero. Kolejność zostaje taka, jak w sekcji Czym jest lista danych.
 
 Ujemny indeks liczy od końca: `-1` to ostatni element, `-2` przedostatni. Jest wygodny, gdy nie wiesz, ile elementów ma lista.
 

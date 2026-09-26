@@ -32,7 +32,8 @@ Dziedzina: **Programowanie od podstaw** · perspektywa: **osoba spoza IT** · j�
 | klasyfikator_pułapek | 1 | 3 | 0.022 | 0 |
 | redaktor_tytułów | 1 | 42 | 0.115 | 0 |
 | autor_ściągawki | 1 | 41 | 0.120 | 0 |
-| **razem** | 1221 | 9386 | 38.369 | 0 |
+| redaktor_linków | 40 | 143 | 0.417 | 0 |
+| **razem** | 1261 | 9529 | 38.786 | 0 |
 
 ## Zgłoszone potrzeby
 
@@ -7772,3 +7773,203 @@ Warto dodać zdanie, że linie pojawiają się co sekundę i nigdy się nie koń
 
 - Wynik: Ściągawka: 45 pozycji w działach: 10 (bez sekcji: 0, ponad limit 50: 0, kod spoza sekcji usunięty: 0).
 - [prompt i odpowiedź](_przebieg/1221-autor-sciagawki.md) · 40.8 s · $0.1201
+
+### 1222 · redaktor_linków
+
+- Wynik: „przykład, który będzie nam towarzyszył”: ścieżka 3 miejsc, link do miejsca 3. Miejsce 3 faktycznie przedstawia przykład „Wspólna Kasa”: czworo znajomych, wspólne wydatki, ustalanie, kto komu ile jest winien. Miejsca 1 i 2 tylko zapowiadają, że przykład będzie towarzyszył czytelnikowi.
+- [prompt i odpowiedź](_przebieg/1222-redaktor-linkow.md) · 3.6 s · $0.0179
+
+### 1223 · redaktor_linków
+
+- Wynik: „Na razie nie piszemy kodu”: ścieżka 3 miejsc, link do miejsca 1. Miejsce 1 samo zawiera zapowiedź: „Na razie nie piszemy kodu”, a program „Wspólna Kasa” zbudujemy razem później. Miejsca 2 i 3 opisują przykład, ale nie mówią, że kod pojawi się później.
+- [prompt i odpowiedź](_przebieg/1223-redaktor-linkow.md) · 3.3 s · $0.0106
+
+### 1224 · redaktor_linków
+
+- Wynik: „Wróćmy do czworga znajomych z wyjazdu”: ścieżka 3 miejsc, link do miejsca 1. Miejsce 1 samo opisuje przykład: czworo znajomych na wyjeździe płaci na zmianę i trzeba ustalić, kto komu ile jest winien. Miejsca 2 i 3 tylko do niego wracają.
+- [prompt i odpowiedź](_przebieg/1224-redaktor-linkow.md) · 3.4 s · $0.0105
+
+### 1225 · redaktor_linków
+
+- Wynik: „Weźmy czworo znajomych z wyjazdu”: ścieżka 3 miejsc, link do miejsca 1. Miejsce 1 samo wprowadza przykład: czworo znajomych płaci na zmianę na wyjeździe i rozlicza, kto komu ile jest winien. Kolejne miejsca tylko wracają do tego przykładu.
+- [prompt i odpowiedź](_przebieg/1225-redaktor-linkow.md) · 3.4 s · $0.0105
+
+### 1226 · redaktor_linków
+
+- Wynik: „przykładem, który będzie nam towarzyszył”: ścieżka 4 miejsc, link do miejsca 2. Miejsce 2 wprowadza przykład „Wspólna Kasa” i opisuje go (wyjazd, czworo znajomych, ustalanie kto komu ile winien). Miejsce 1 tylko opisuje, jak przykład się rozwinie, a 3 i 4 to kolejne wzmianki.
+- [prompt i odpowiedź](_przebieg/1226-redaktor-linkow.md) · 3.6 s · $0.0113
+
+### 1227 · redaktor_linków
+
+- Wynik: „Na razie nie piszemy kodu”: ścieżka 3 miejsc, link do miejsca 3. Miejsce 1 tylko mówi, że kodu jeszcze nie ma, a miejsce 2 go zapowiada („Zaczyna się od pliku rozlicz.py”). Prawdziwy kod Pythona jest dopiero w miejscu 3.
+- [prompt i odpowiedź](_przebieg/1227-redaktor-linkow.md) · 4.6 s · $0.0110
+
+### 1228 · redaktor_linków
+
+- Wynik: „języku, którego użyjemy w tym tutorialu”: ścieżka 3 miejsc, link do miejsca 2. Miejsce 2 wprost stwierdza, że pliki są w Pythonie (.py) i że ten język towarzyszy przykładowi tutorialu. Miejsce 1 tylko wymienia Pythona jako jedną z opcji, a miejsce 3 to sam kod.
+- [prompt i odpowiedź](_przebieg/1228-redaktor-linkow.md) · 3.6 s · $0.0102
+
+### 1229 · redaktor_linków
+
+- Wynik: „Pythonem zajmiemy się osobno, gdy przejdziemy do pisania „Wspólnej Kasy””: ścieżka 3 miejsc, link do miejsca 2. Miejsce 1 tylko zapowiada funkcje i „Wspólną Kasę”. Miejsce 2 to realizacja zapowiedzi: tam funkcja jest faktycznie tworzona w kodzie. Miejsce 3 leży wcześniej i nie jest omówieniem tego, co zapowiedziano.
+- [prompt i odpowiedź](_przebieg/1229-redaktor-linkow.md) · 5.2 s · $0.0123
+
+### 1230 · redaktor_linków
+
+- Wynik: „Wróćmy do czworga znajomych na wyjeździe”: ścieżka 3 miejsc, link do miejsca 1. Miejsce 1 samo opisuje przykład: czworo znajomych na wyjeździe płaci na zmianę i trzeba ustalić, kto komu ile jest winien. Miejsca 2 i 3 tylko wracają do przykładu.
+- [prompt i odpowiedź](_przebieg/1230-redaktor-linkow.md) · 3.5 s · $0.0105
+
+### 1231 · redaktor_linków
+
+- Wynik: „„Wspólna Kasa”, przykład, który będzie nam towarzyszył”: ścieżka 4 miejsc, link do miejsca 1. Miejsce 1 wprowadza przykład Wspólnej Kasy: czworo znajomych na wyjeździe, wspólne wydatki i rozliczanie, kto komu ile jest winien. Pozostałe miejsca tylko do niego wracają albo go rozwijają.
+- [prompt i odpowiedź](_przebieg/1231-redaktor-linkow.md) · 3.5 s · $0.0114
+
+### 1232 · redaktor_linków
+
+- Wynik: „pytania do użytkownika”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 samo zawiera zapowiedź dobudowania pytań do użytkownika i pierwsze pytanie o nowy wydatek; miejsce 2 dotyczy Gita, nie pytań.
+- [prompt i odpowiedź](_przebieg/1232-redaktor-linkow.md) · 3.3 s · $0.0098
+
+### 1233 · redaktor_linków
+
+- Wynik: „sprawdzanie danych”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 samo wyjaśnia, czym jest walidacja i po co sprawdzać dane wpisane przez użytkownika (przykłady `abc` i `-5`). Miejsce 2 mówi tylko o typie zwracanym przez input i nie omawia sprawdzania danych.
+- [prompt i odpowiedź](_przebieg/1233-redaktor-linkow.md) · 3.4 s · $0.0104
+
+### 1234 · redaktor_linków
+
+- Wynik: „czworo znajomych na wyjeździe, którzy płacili na zmianę”: ścieżka 3 miejsc, link do miejsca 1. Miejsce 1 samo opisuje przykład: czworo znajomych na wyjeździe płaci na zmianę za jedzenie, paliwo i nocleg. Pozostałe miejsca tylko do niego wracają.
+- [prompt i odpowiedź](_przebieg/1234-redaktor-linkow.md) · 3.2 s · $0.0105
+
+### 1235 · redaktor_linków
+
+- Wynik: „Na razie nie piszemy kodu”: ścieżka 2 miejsc, link do miejsca 2. Zdanie „Na razie nie piszemy kodu” zapowiada, że kod pojawi się dalej. Miejsce 1 mówi tylko o pliku `rozlicz.py` i rozszerzeniu `.py`, a kodu jeszcze nie pokazuje. Prawdziwy kod czytelnik zobaczy dopiero w miejscu 2, w bloku python z `print` i komentarzami.
+- [prompt i odpowiedź](_przebieg/1235-redaktor-linkow.md) · 3.9 s · $0.0102
+
+### 1236 · redaktor_linków
+
+- Wynik: „Przykładem, który będzie nam towarzyszył, jest „Wspólna Kasa””: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 zawiera zapowiedź, że Wspólna Kasa będzie przykładem towarzyszącym w tutorialu, i od razu zaczyna jego wprowadzanie (plik rozlicz.py). Miejsce 2 to tylko kod kolejnego kroku, nie zapowiedź.
+- [prompt i odpowiedź](_przebieg/1236-redaktor-linkow.md) · 3.6 s · $0.0100
+
+### 1237 · redaktor_linków
+
+- Wynik: „we „Wspólnej Kasie””: ścieżka 3 miejsc, link do miejsca 2. Zdanie „we Wspólnej Kasie" odsyła do opisu przykładu. Miejsce 1 tylko mówi, jak program będzie wyglądał (bez okna, bez przycisków). Dopiero miejsce 2 opisuje sam problem: czworo znajomych, wydatki, rozliczenie, kto komu ile jest winien. Miejsce 3 to zapowiedź.
+- [prompt i odpowiedź](_przebieg/1237-redaktor-linkow.md) · 3.9 s · $0.0110
+
+### 1238 · redaktor_linków
+
+- Wynik: „przykład, który będzie nam towarzyszył”: ścieżka 2 miejsc, link do miejsca 2. Miejsce 1 tylko zapowiada przykład „Wspólna Kasa” i plik rozlicz.py. Faktyczny kod przykładu, który towarzyszy czytelnikowi, jest dopiero w miejscu 2.
+- [prompt i odpowiedź](_przebieg/1238-redaktor-linkow.md) · 3.4 s · $0.0096
+
+### 1239 · redaktor_linków
+
+- Wynik: „takie części zamienimy w osobne”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 faktycznie wykonuje zapowiedź: zamienia pętlę sumującą w osobną funkcję, wydzielając część programu w osobny kawałek. Miejsce 2 opisuje tylko pętlę, nie wydzielanie funkcji.
+- [prompt i odpowiedź](_przebieg/1239-redaktor-linkow.md) · 3.6 s · $0.0093
+
+### 1240 · redaktor_linków
+
+- Wynik: „przykład, który będzie nam towarzyszył w kolejnych działach”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 już mówi o Wspólnej Kasie jako przykładzie, z którym czytelnik pracuje (plik rozlicz.py, uruchamianie); miejsce 2 jest ogólne i nie wspomina o przykładzie.
+- [prompt i odpowiedź](_przebieg/1240-redaktor-linkow.md) · 3.4 s · $0.0097
+
+### 1241 · redaktor_linków
+
+- Wynik: „jak to działa, pokażemy przy uruchamianiu programu”: ścieżka 2 miejsc, link do miejsca 2. Miejsce 1 tylko zapowiada wyjaśnienie („wyjaśnimy w następnej części”). Faktyczne pokazanie, jak Python czyta plik i wykonuje go od góry (`python rozlicz.py`), jest dopiero w miejscu 2.
+- [prompt i odpowiedź](_przebieg/1241-redaktor-linkow.md) · 3.2 s · $0.0096
+
+### 1242 · redaktor_linków
+
+- Wynik: „Skoro kod jest zwykłym plikiem tekstowym”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 wprost stwierdza, że kod źródłowy fizycznie jest zwykłym plikiem tekstowym, jak notatka czy lista zakupów. Miejsce 2 to tylko przykład algorytmu, a nie informacja o pliku tekstowym.
+- [prompt i odpowiedź](_przebieg/1242-redaktor-linkow.md) · 3.5 s · $0.0101
+
+### 1243 · redaktor_linków
+
+- Wynik: „wyjaśnimy w następnej części”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 (sec-03-kompilator-i-interpreter) to właściwa sekcja: wyjaśnia, że wykonawcą jest interpreter, który bierze plik i wykonuje go od góry. Miejsce 2 to sekcja, z której pochodzi sama zapowiedź.
+- [prompt i odpowiedź](_przebieg/1243-redaktor-linkow.md) · 4.0 s · $0.0104
+
+### 1244 · redaktor_linków
+
+- Wynik: „Dokładniej opiszemy to przy przypisaniu”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 samo wyjaśnia znak = i przypisanie wartości do zmiennej (składnia, znaczenie, tworzenie i podmiana). Miejsce 2 to tylko porównanie z pudełkiem.
+- [prompt i odpowiedź](_przebieg/1244-redaktor-linkow.md) · 3.2 s · $0.0106
+
+### 1245 · redaktor_linków
+
+- Wynik: „Tym zajmiemy się osobno.”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 samo wyjaśnia łączenie tekstów operatorem +, czyli to, co obiecywało zdanie. Miejsce 2 dotyczy działań na liczbach.
+- [prompt i odpowiedź](_przebieg/1245-redaktor-linkow.md) · 3.2 s · $0.0103
+
+### 1246 · redaktor_linków
+
+- Wynik: „omówimy w następnej sekcji”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 zawiera definicję typu danych (rodzaj wartości, jakie działania są dozwolone), czyli to, co zapowiada zdanie. Miejsce 2 omawia pojęcie „dana”, a nie typ danych.
+- [prompt i odpowiedź](_przebieg/1246-redaktor-linkow.md) · 3.5 s · $0.0102
+
+### 1247 · redaktor_linków
+
+- Wynik: „Jak to zapisać, pokażemy przy instrukcji warunkowej”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 to sekcja o instrukcji warunkowej i opisuje, jak Python podejmuje decyzję na podstawie wartości logicznej (True wykonuje linie, False pomija). Miejsce 2 dotyczy tylko porównań, a nie zapisywania decyzji.
+- [prompt i odpowiedź](_przebieg/1247-redaktor-linkow.md) · 3.5 s · $0.0106
+
+### 1248 · redaktor_linków
+
+- Wynik: „„Wspólna Kasa”, która czeka na koniec listy”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 wprost wyjaśnia, że ostatni print bez wcięcia wykonuje się raz, po zakończeniu pętli, czyli na końcu listy. To dokładnie ta informacja; miejsce 2 dotyczy instrukcji warunkowej, nie pętli.
+- [prompt i odpowiedź](_przebieg/1248-redaktor-linkow.md) · 3.8 s · $0.0098
+
+### 1249 · redaktor_linków
+
+- Wynik: „wcześniej szła po imionach uczestników”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 opisuje pętlę z działu 06, która przechodzi po osobach na liście (imie przyjmuje kolejne wartości), więc już zawiera informację. Miejsce 2 dotyczy instrukcji warunkowej, nie pętli.
+- [prompt i odpowiedź](_przebieg/1249-redaktor-linkow.md) · 3.3 s · $0.0096
+
+### 1250 · redaktor_linków
+
+- Wynik: „Funkcja `suma` już jest”: ścieżka 2 miejsc, link do miejsca 1. Sekcja 07 zamienia pętlę sumującą w osobną funkcję, czyli tam funkcja `suma` jest zdefiniowana. Sekcja 06 pokazuje tylko pętlę, a nie funkcję.
+- [prompt i odpowiedź](_przebieg/1250-redaktor-linkow.md) · 3.7 s · $0.0092
+
+### 1251 · redaktor_linków
+
+- Wynik: „U siebie masz już `funkcje.py` z funkcją `suma`”: ścieżka 2 miejsc, link do miejsca 1. Sekcja 07 wprowadza plik funkcje.py z funkcją suma (zamiana pętli w funkcję); sekcja 06 opisuje tylko pętlę sumującą, nie funkcję ani plik.
+- [prompt i odpowiedź](_przebieg/1251-redaktor-linkow.md) · 3.4 s · $0.0092
+
+### 1252 · redaktor_linków
+
+- Wynik: „na_osobe(suma(mazury), 3)”: ścieżka 2 miejsc, link do miejsca 1. Zdanie odsyła do przykładu z sumą jako funkcją. Miejsce 1 (sec-07) je zawiera: pętla sumująca zamieniona w osobną funkcję. Miejsce 2 opisuje tylko pętlę bez funkcji.
+- [prompt i odpowiedź](_przebieg/1252-redaktor-linkow.md) · 3.6 s · $0.0094
+
+### 1253 · redaktor_linków
+
+- Wynik: „U siebie w `funkcje.py` masz te same funkcje”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 to sekcja o funkcji, w której suma zostaje zamieniona w osobną funkcję. To ten kod czytelnik ma w funkcje.py. Miejsce 2 opisuje tylko pętlę, a nie funkcję.
+- [prompt i odpowiedź](_przebieg/1253-redaktor-linkow.md) · 3.5 s · $0.0094
+
+### 1254 · redaktor_linków
+
+- Wynik: „kod zostaje ten sam, a dane przychodzą przy każdym uruchomieniu inne”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 samo zawiera to zdanie i wyjaśnia, że kod jest stały, a dane przychodzą inne przy każdym uruchomieniu. Miejsce 2 opisuje tylko ponowne użycie kodu.
+- [prompt i odpowiedź](_przebieg/1254-redaktor-linkow.md) · 3.4 s · $0.0095
+
+### 1255 · redaktor_linków
+
+- Wynik: „suchy wynik nic nie mówi komuś, kto nie zna kodu”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 samo zawiera wniosek, że suchy wynik „26.0” nic nie mówi bez opisu i jednostki. Miejsce 2 dotyczy plików, a nie opisywania wyniku.
+- [prompt i odpowiedź](_przebieg/1255-redaktor-linkow.md) · 3.2 s · $0.0098
+
+### 1256 · redaktor_linków
+
+- Wynik: „człowiek po drugiej stronie potrafi wpisać coś nieoczekiwanego”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 samo wyjaśnia, że użytkownik może wpisać coś nieoczekiwanego (`abc`, `-5`) i dlaczego trzeba sprawdzać dane (walidacja). Miejsce 2 mówi tylko o typie zwracanym przez input.
+- [prompt i odpowiedź](_przebieg/1256-redaktor-linkow.md) · 3.4 s · $0.0105
+
+### 1257 · redaktor_linków
+
+- Wynik: „Czytanie komunikatów i szukanie takich błędów omówimy w kolejnych sekcjach tego działu”: ścieżka 2 miejsc, link do miejsca 2. Miejsce 1 tylko zapowiada („omówimy przy debugowaniu”) i zawiera krótką wskazówkę o czytaniu śladu. Miejsce 2 wyjaśnia, czym jest debugowanie, więc tam czytelnik znajdzie omówienie szukania błędów.
+- [prompt i odpowiedź](_przebieg/1257-redaktor-linkow.md) · 3.7 s · $0.0097
+
+### 1258 · redaktor_linków
+
+- Wynik: „szukanie po ostatniej linii komunikatu”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 samo mówi, jak szukać po ostatniej linii Tracebacku: skopiować ją bez ścieżek i nazw własnych zmiennych. Miejsce 2 tłumaczy tylko czytanie komunikatu od dołu, a nie szukanie w internecie.
+- [prompt i odpowiedź](_przebieg/1258-redaktor-linkow.md) · 3.4 s · $0.0097
+
+### 1259 · redaktor_linków
+
+- Wynik: „Wspólna Kasa to jej przykład”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 już pokazuje Wspólną Kasę jako przykładowy program: opisuje jej wejście (kwoty), przetwarzanie (podział rachunku) i wyjście (wynik na ekranie). Miejsce 2 nie zawiera nic więcej o tym przykładzie.
+- [prompt i odpowiedź](_przebieg/1259-redaktor-linkow.md) · 3.5 s · $0.0107
+
+### 1260 · redaktor_linków
+
+- Wynik: „W kolejnej sekcji zobaczysz, jak taki kawałek kodu zaczyna pracować za Ciebie”: ścieżka 3 miejsc, link do miejsca 1. Miejsce 1 samo zawiera treść, do której odsyła zdanie: pokazuje, jak kod (pętla i funkcja) pracuje za czytelnika, zamiast przepisywania kwot, i zapowiada przykład z Wspólnej Kasy. Miejsca 2 i 3 dotyczą innych tematów (strona a aplikacja, programy na co dzień).
+- [prompt i odpowiedź](_przebieg/1260-redaktor-linkow.md) · 3.8 s · $0.0117
+
+### 1261 · redaktor_linków
+
+- Wynik: „Tak wygląda to we Wspólnej Kasie”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 już pokazuje, jak wygląda to we „Wspólnej Kasie”: wejście to kwoty wpisane przez znajomych, przetwarzanie to podział rachunku, wyjście to wynik na ekranie. Miejsce 2 jest ogólne i mówi o programach na co dzień, nie o Kasie.
+- [prompt i odpowiedź](_przebieg/1261-redaktor-linkow.md) · 3.6 s · $0.0109

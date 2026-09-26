@@ -34,7 +34,7 @@ dane: lista wydatków (kto, ile) i liczba osób
 wynik: saldo każdej osoby
 ```
 
-<a id="ref-8"></a>[Na razie nie piszemy kodu](03%20Napisz%20i%20uruchom%20kod.md#ref-16): to celowo zwykły język. <a id="ref-9"></a>Ten sam algorytm można potem zapisać w Pythonie, w arkuszu kalkulacyjnym albo wykonać ręcznie. Właśnie dlatego warto go oddzielać od [kodu](00%20Glosariusz.md#kod).
+<a id="ref-8"></a>[Na razie nie piszemy kodu](03%20Napisz%20i%20uruchom%20kod.md#ref-35): to celowo zwykły język. <a id="ref-9"></a>Ten sam algorytm można potem zapisać w Pythonie, w arkuszu kalkulacyjnym albo wykonać ręcznie. Właśnie dlatego warto go oddzielać od [kodu](00%20Glosariusz.md#kod).
 
 Konsekwencja: zanim napiszesz program, upewnij się, że masz algorytm. Gdy kroki są jasne na papierze, zamiana ich na kod jest już głównie kwestią zapisu.
 
@@ -62,11 +62,11 @@ Zestawmy oba zapisy:
 
 Warunek zakończenia to sprawdzalny test „czy już koniec?”. „Piecz 40 minut” albo „piecz, aż termometr pokaże 95°C w środku” da się zmierzyć. „Piecz, aż się zrumieni” już nie, bo każdy inaczej oceni rumieniec.
 
-Tak samo jest z „dodaj szczyptę soli” czy „smaż chwilę”: kucharz zinterpretuje to po swojemu. W algorytmie musi stać coś takiego jak „[Podziel sumę przez liczbę osób](#lm-8)”, bez pola na domysły.
+Tak samo jest z „dodaj szczyptę soli” czy „smaż chwilę”: kucharz zinterpretuje to po swojemu. W algorytmie musi stać coś takiego jak „Podziel sumę przez liczbę osób”, bez pola na domysły.
 
 Ten sam przepis mogą wykonać różne osoby w różnych kuchniach i wyjdzie to samo danie. Tak samo algorytm da się wykonać w Pythonie, w arkuszu albo na kartce.
 
-[Przykładem, który będzie nam towarzyszył, jest „Wspólna Kasa”](03%20Napisz%20i%20uruchom%20kod.md#ref-19). Jej przepis to cztery kroki rozliczenia, które już znasz: składniki to wydatki i liczba osób, a „danie” to saldo każdego.
+[Przykładem, który będzie nam towarzyszył, jest „Wspólna Kasa”](03%20Napisz%20i%20uruchom%20kod.md#ref-19). Jej przepis to [cztery kroki rozliczenia, które już znasz](#lm-8): składniki to wydatki i liczba osób, a „danie” to saldo każdego.
 
 Konsekwencja: pisząc algorytm, wyobraź sobie przepis dla kogoś, kto nigdy nie gotował. Jeśli taka osoba wykona go bez pytań, kroki są dość dokładne.
 
@@ -91,7 +91,7 @@ Plik obrazu: `ilustracje/02-porównaj-przepis-z-algorytmem-1.png`
 
 Kolejność ma znaczenie, bo prawie każdy krok korzysta z wyniku poprzedniego. Zamiana miejsc sprawia, że krok dostaje dane, których jeszcze nie ma, i algorytm daje zły wynik albo wcale nie działa.
 
-Weźmy [cztery kroki rozliczenia](#lm-8) [we „Wspólnej Kasie”](01%20Wejd%C5%BA%20w%20%C5%9Bwiat%20programowania.md#lm-7). Ala wydała 60 zł, Bartek 40 zł, Czarek 20 zł. Najpierw sumujemy: 120 zł. Potem dzielimy przez trzy osoby: udział wynosi 40 zł. Na końcu odejmujemy udział od wpłaty każdego.
+Weźmy [cztery kroki rozliczenia](#lm-8) [we „Wspólnej Kasie”](01%20Wejd%C5%BA%20w%20%C5%9Bwiat%20programowania.md#lm-2). Ala wydała 60 zł, Bartek 40 zł, Czarek 20 zł. Najpierw sumujemy: 120 zł. Potem dzielimy przez trzy osoby: udział wynosi 40 zł. Na końcu odejmujemy udział od wpłaty każdego.
 
 Teraz zamieńmy kroki: odejmujemy udział, zanim go policzyliśmy.
 
@@ -139,7 +139,7 @@ Oto [rozliczenie „Wspólnej Kasy” z trzema osobami](#lm-8), narysowane znaka
 
 Rysunek ma dwie zalety. Rozgałęzienia i powroty widać od razu, a w opisie słownym łatwo je przeoczyć. Poza tym pokazuje, gdzie algorytm się kończy, czyli sprawdzalny warunek zakończenia.
 
-Konsekwencja: schemat pozwala sprawdzić algorytm na kartce, zanim powstanie kod. [Wrócimy do niego przy podziale problemu na części](#rozłóż-problem-na-części), a „Wspólna Kasa”, [przykład, który będzie nam towarzyszył](03%20Napisz%20i%20uruchom%20kod.md#ref-24), [dostanie z niego kod dopiero później](03%20Napisz%20i%20uruchom%20kod.md#ref-25).
+Konsekwencja: schemat pozwala sprawdzić algorytm na kartce, zanim powstanie kod. Wrócimy do niego przy podziale problemu na części, a „Wspólna Kasa”, [przykład, który będzie nam towarzyszył](03%20Napisz%20i%20uruchom%20kod.md#ref-35), [dostanie z niego kod dopiero później](03%20Napisz%20i%20uruchom%20kod.md#ref-25).
 
 > **Z przymrużeniem oka:** Schemat blokowy bez strzałki „nie” wychodzącej z ostatniego rombu przypomina rondo bez zjazdów: wszystko jest poprawnie narysowane, tylko nikt stamtąd nie wyjedzie.
 
@@ -147,7 +147,7 @@ Konsekwencja: schemat pozwala sprawdzić algorytm na kartce, zanim powstanie kod
 
 Duży problem dzielisz tak, by każda część miała własne dane wejściowe, jedno zadanie i wynik, który da się sprawdzić osobno. Zaczynasz od całego zadania, a potem pytasz: z jakich mniejszych kroków się składa?
 
-Weźmy „rozlicz wyjazd”. To za dużo naraz, więc rozbijamy to na trzy części. Wracamy tu do schematu blokowego z poprzedniej sekcji: kroki w jego ramkach to gotowe kandydatki na części.
+Weźmy „rozlicz wyjazd”. To za dużo naraz, więc rozbijamy to na trzy części. Wracamy tu do [schematu blokowego z poprzedniej sekcji](#narysuj-schemat-blokowy): kroki w jego ramkach to gotowe kandydatki na części.
 
 ```text
 Rozlicz wyjazd

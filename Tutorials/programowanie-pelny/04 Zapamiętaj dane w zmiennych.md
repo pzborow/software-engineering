@@ -45,13 +45,13 @@ True
 
 Każda z tych trzech wartości to jedna dana, ale każda jest innego rodzaju. Rodzaj danej decyduje o tym, co program może z nią zrobić. Do liczby 45.5 da się dodać 10 albo ją podzielić. <a id="lm-24"></a>Imienia „Ania” nie da się podzielić przez 2, bo to nie ma sensu; można je co najwyżej wypisać, porównać z innym albo połączyć z innym tekstem. Prawda lub fałsz odpowiada na pytanie tak/nie.
 
-Dane trzeba też gdzieś przechowywać, żeby użyć ich więcej niż raz. [Do tego służy zmienna, którą poznasz w następnej sekcji](#ref-44). To, jak Python nazywa poszczególne rodzaje danych, [wyjaśnimy przy typach danych](#ref-45).
+Dane trzeba też gdzieś przechowywać, żeby użyć ich więcej niż raz. Do tego służy [zmienna](00%20Glosariusz.md#zmienna), którą poznasz w następnej sekcji. To, jak Python nazywa poszczególne rodzaje danych, [wyjaśnimy przy typach danych](#ref-45).
 
 > **Z przymrużeniem oka:** Program bez danych to kucharz bez produktów: piec rozgrzany, fartuch wyprasowany, a obiadu i tak nie będzie.
 
 ## Nazwij swoją pierwszą zmienną
 
-<a id="ref-44"></a>[Zmienna](00%20Glosariusz.md#zmienna) to nazwane miejsce w pamięci programu, w którym leży jedna dana. Dzięki nazwie możesz tę daną wielokrotnie odczytać, użyć w obliczeniach albo zastąpić inną.
+Zmienna to <a id="ref-44"></a>nazwane miejsce w pamięci programu, w którym leży jedna dana. Dzięki nazwie możesz tę daną wielokrotnie odczytać, użyć w obliczeniach albo zastąpić inną.
 
 [Pamiętasz, że dane trzeba gdzieś przechowywać](#zobacz-czym-jest-dana), żeby użyć ich więcej niż raz. Właśnie do tego służy zmienna. Zamiast wpisywać `45.5` w kilku miejscach, nadajesz kwocie nazwę i posługujesz się nią. To trochę jak komórka w arkuszu, którą nazwałeś „kwota”, a potem odwołujesz się do niej po nazwie.
 
@@ -71,7 +71,7 @@ Ania 45.5 True
 
 Znak `=` nie oznacza tu „równa się” jak w matematyce. Znaczy: „zapisz to, co po prawej, pod nazwą po lewej”. [Dokładniej opiszemy to przy przypisaniu](#ref-47).
 
-<a id="lm-25"></a>[Wartość zmiennej](00%20Glosariusz.md#wartość-zmiennej) może się zmieniać w trakcie działania programu, stąd nazwa: po `kwota = 60` stara kwota znika, a nowa zajmuje jej miejsce. Nazwa zostaje ta sama. W „Wspólnej Kasie” takie zmienne w `rozlicz.py` opisują pojedynczy wydatek: kto zapłacił, ile i czy już się rozliczył.
+[Wartość zmiennej](00%20Glosariusz.md#wartość-zmiennej) może się zmieniać w trakcie działania programu, stąd nazwa: <a id="lm-25"></a>po `kwota = 60` stara kwota znika, a nowa zajmuje jej miejsce. Nazwa zostaje ta sama. W „Wspólnej Kasie” takie zmienne w `rozlicz.py` opisują pojedynczy wydatek: kto zapłacił, ile i czy już się rozliczył.
 
 > **Wtręt:** Marta wpisała kwotę za zakupy, `45.5`, bezpośrednio w pięciu liniach programu. Potem okazało się, że paragon opiewał na `54.5`, więc poprawiła ją w czterech miejscach i przeoczyła piąte. Komputer nie zgłosił błędu, tylko wykonał wszystko dokładnie: cztery obliczenia zgodne z paragonem i jedno nie. Gdyby kwota siedziała w zmiennej `kwota`, wystarczyłaby jedna poprawka.
 
@@ -88,7 +88,7 @@ etykieta: kwota      etykieta: imie
 └──────────┘         └──────────┘
 ```
 
-Porównanie tłumaczy trzy rzeczy. Pudełko mieści jedną wartość naraz, więc nowa wartość wypiera starą, jak w przypadku [zmiany kwoty z poprzedniej sekcji](#lm-25). Etykieta zostaje, zmienia się tylko zawartość. Wreszcie każde pudełko żyje własnym życiem: kopia wartości do drugiego pudełka nie łączy ich na stałe.
+Porównanie tłumaczy trzy rzeczy. Pudełko mieści jedną wartość naraz, więc nowa wartość wypiera starą, jak w przypadku zmiany kwoty z poprzedniej sekcji. Etykieta zostaje, zmienia się tylko zawartość. Wreszcie każde pudełko żyje własnym życiem: kopia wartości do drugiego pudełka nie łączy ich na stałe.
 
 ```python
 # poza kanonem
@@ -166,7 +166,7 @@ Plik obrazu: `ilustracje/04-wyobraź-sobie-pudełko-z-etykietą-1.png`
 
 ## Rozróżnij liczbę i tekst
 
-<a id="lm-27"></a>Liczba to wartość, na której program liczy. Tekst to ciąg znaków, który program przechowuje, wypisuje, porównuje i skleja. Zapis decyduje o tym, z czym mamy do czynienia: `45.5` bez cudzysłowu to liczba, a `"45.5"` w cudzysłowie to tekst, czyli cztery znaki: 4, 5, kropka, 5.
+Liczba to wartość, na której program liczy. Tekst to ciąg znaków, który program przechowuje, wypisuje, porównuje i skleja. Zapis decyduje o tym, z czym mamy do czynienia: `45.5` bez cudzysłowu to liczba, a <a id="lm-27"></a>`"45.5"` w cudzysłowie to tekst, czyli cztery znaki: 4, 5, kropka, 5.
 
 | Zapis | Co to jest | Można dzielić? |
 |---|---|---|
@@ -174,7 +174,7 @@ Plik obrazu: `ilustracje/04-wyobraź-sobie-pudełko-z-etykietą-1.png`
 | `"45.5"` | tekst | nie |
 | `"Ania"` | tekst | nie |
 
-W programie ułamek dziesiętny zapisujemy z kropką, nie z przecinkiem, tak jak `kwota = 45.5` w „Wspólnej Kasie”.
+W programie ułamek dziesiętny zapisujemy z kropką, nie z przecinkiem, [tak jak `kwota = 45.5` w „Wspólnej Kasie”](#nazwij-swoją-pierwszą-zmienną).
 
 ```python
 kwota = 45.5
@@ -188,11 +188,11 @@ print(imie)
 Ania
 ```
 
-Liczbę można podzielić, tekstu nie. To ta sama myśl co [[imienia nie da się podzielić|imię „Ania” nie do podzielenia przez 2]]. Python zatrzyma się z komunikatem `TypeError`. 
+Liczbę można podzielić, tekstu nie. To ta sama myśl co [imię „Ania” nie do podzielenia przez 2](#lm-24). Python zatrzyma się z komunikatem `TypeError`. 
 
 Uwaga na plus: przy liczbach dodaje, a przy tekstach skleja je w jeden. [Tym zajmiemy się osobno.](05%20Podejmuj%20decyzje%20w%20programie.md#ref-52)
 
-Konsekwencja: kwotę zapisaną w cudzysłowie program potraktuje jak napis, nie jak pieniądze. Nazwę tej cechy danych, czyli typ, [omówimy w następnej sekcji](#ref-53).
+Konsekwencja: kwotę zapisaną w cudzysłowie program potraktuje jak napis, nie jak pieniądze. Nazwę tej cechy danych, czyli typ, omówimy w następnej sekcji.
 
 > **Warsztat: zrób u siebie**
 
@@ -244,7 +244,7 @@ _[źródła: 1](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.md#04-zapamiętaj-dane-w
 
 <a id="ref-53"></a>[Typ danych](00%20Glosariusz.md#typ-danych) to rodzaj wartości, który mówi Pythonowi, czym ta wartość jest i jakie działania są na niej dozwolone. [Wcześniej pisaliśmy po prostu „rodzaj danych”](#zobacz-czym-jest-dana), teraz mamy na to fachową nazwę.
 
-Typ ma każda wartość, także ta ukryta w zmiennej. Python rozpoznaje go po zapisie: cudzysłów oznacza tekst, cyfry z kropką ułamek, a `True` lub `False` prawdę albo fałsz. Dlatego `"45.5"` to [[cztery znaki zamiast kwoty|tylko cztery znaki: 4, 5, kropka, 5]], a nie pieniądze. Typ sprawdzisz funkcją `type()`.
+Typ ma każda wartość, także ta ukryta w zmiennej. Python rozpoznaje go po zapisie: cudzysłów oznacza tekst, cyfry z kropką ułamek, a `True` lub `False` prawdę albo fałsz. Dlatego `"45.5"` to [tylko cztery znaki: 4, 5, kropka, 5](#lm-27), a nie pieniądze. Typ sprawdzisz funkcją `type()`.
 
 ```python
 imie = "Ania"
@@ -270,7 +270,7 @@ Słowo `class` na razie pomiń, ważna jest nazwa po nim. <a id="ref-45"></a>Oto
 | `float` | liczba z ułamkiem | `45.5` |
 | `bool` | prawda lub fałsz | `True` |
 
-Typ decyduje o tym, co program może zrobić z wartością. Dlatego [[imienia nie da się podzielić|imienia nie podzielisz przez 2]], a kwotę tak. Typem `bool` zajmiemy się osobno, w kolejnej sekcji.
+Typ decyduje o tym, co program może zrobić z wartością. Dlatego [imienia nie podzielisz przez 2](#lm-24), a kwotę tak. Typem `bool` zajmiemy się osobno, w kolejnej sekcji.
 
 Konsekwencja: gdy program zachowuje się dziwnie, jedno z pierwszych pytań brzmi „jakiego typu jest ta wartość?”.
 
@@ -336,7 +336,7 @@ W 1996 roku pierwsza rakieta Ariane 5 rozpadła się po niespełna 40 sekundach 
 
 Pasuje do każdej odpowiedzi „tak albo nie”: czy wydatek jest zapłacony, czy kwota jest większa od zera. Nie ma nic pomiędzy. W arkuszu to odpowiednik pola wyboru: zaznaczone albo nie.
 
-Zapisuje się je z wielkiej litery i bez cudzysłowu. Ta sama zasada, co przy `"45.5"`: `True` to wartość logiczna, a `"True"` w cudzysłowie to tylko tekst z czterech liter.
+Zapisuje się je z wielkiej litery i bez cudzysłowu. [Ta sama zasada, co przy `"45.5"`](#lm-27): `True` to wartość logiczna, a `"True"` w cudzysłowie to tylko tekst z czterech liter.
 
 ```python
 zaplacono = True
@@ -352,7 +352,7 @@ False
 <class 'bool'>
 ```
 
-Zmienną logiczną podmieniasz jak każdą inną: po drugim przypisaniu `True` znika, a jej miejsce zajmuje `False`.
+[Zmienną logiczną podmieniasz jak każdą inną: po drugim przypisaniu `True` znika](#lm-25), a jej miejsce zajmuje `False`.
 
 Konsekwencja: taka wartość służy programowi do podejmowania decyzji. Na podstawie `zaplacono` program będzie mógł wybrać, czy przypomnieć o długu. [Jak to zapisać, pokażemy przy instrukcji warunkowej](05%20Podejmuj%20decyzje%20w%20programie.md#ref-61).
 

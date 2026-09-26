@@ -23,7 +23,7 @@ Prosty schemat każdego programu wygląda tak:
 dane na wejściu  -->  program (instrukcje)  -->  wynik na wyjściu
 ```
 
-Weźmy [przykład, który będzie nam towarzyszył](#ref-2): „Wspólna Kasa”. <a id="lm-2"></a>Na wyjeździe czworo znajomych płaci na zmianę za jedzenie, paliwo i nocleg. Na koniec trzeba ustalić, kto komu ile jest winien. W arkuszu robisz to ręcznie: wpisujesz kwoty, sumujesz, dzielisz, odejmujesz, a przy każdym nowym wyjeździe zaczynasz od nowa.
+Weźmy [przykład, który będzie nam towarzyszył](#lm-2): „Wspólna Kasa”. <a id="lm-2"></a>Na wyjeździe czworo znajomych płaci na zmianę za jedzenie, paliwo i nocleg. Na koniec trzeba ustalić, kto komu ile jest winien. W arkuszu robisz to ręcznie: wpisujesz kwoty, sumujesz, dzielisz, odejmujesz, a przy każdym nowym wyjeździe zaczynasz od nowa.
 
 Program „Wspólna Kasa” zrobi to za ciebie. Na wejściu dostanie listę wydatków (kto zapłacił i ile), a na wyjściu poda rozliczenie. Napisze go programista, czyli [osoba, która zamienia potrzebę na instrukcje](#ref-1) zrozumiałe dla komputera. [Na razie nie piszemy kodu](#ref-3); ważne, że raz zapisane instrukcje można uruchamiać bez końca.
 
@@ -50,7 +50,7 @@ problem --> kroki rozwiązania --> zapis dla komputera --> uruchomienie --> popr
                    +---------------------------------------------------------+
 ```
 
-[Wróćmy do czworga znajomych z wyjazdu](#lm-2). Najpierw trzeba dokładnie ustalić, co jest problemem: kto komu ile ma oddać, żeby każdy zapłacił tyle samo. Potem rozbijasz to na kroki, które wykonałbyś na kartce: zsumuj wydatki, podziel przez liczbę osób, porównaj z tym, co kto zapłacił. Dopiero taki opis zapisujesz w [języku programowania](00%20Glosariusz.md#język-programowania), czyli w ściśle określonym języku, który komputer potrafi odczytać. [Tym językiem zajmiemy się osobno](#ref-5).
+Wróćmy do czworga znajomych z wyjazdu. Najpierw trzeba dokładnie ustalić, co jest problemem: kto komu ile ma oddać, żeby każdy zapłacił tyle samo. Potem rozbijasz to na kroki, które wykonałbyś na kartce: zsumuj wydatki, podziel przez liczbę osób, porównaj z tym, co kto zapłacił. Dopiero taki opis zapisujesz w [języku programowania](00%20Glosariusz.md#język-programowania), czyli w ściśle określonym języku, który komputer potrafi odczytać. [Tym językiem zajmiemy się osobno](#ref-5).
 
 Pierwsza wersja rzadko działa idealnie. Uruchamiasz program, patrzysz na wynik, znajdujesz pomyłkę i poprawiasz. Ta pętla poprawek to normalna część pracy, a nie dowód, że coś poszło nie tak.
 
@@ -87,15 +87,15 @@ Programista sporo czasu spędza więc na rozmowie, myśleniu, czytaniu cudzego k
 
 Nie trzeba być programistą z zawodu, żeby programować. Osoba spoza IT, która napisze mały program do własnych rozliczeń, wykonuje tę samą pracę, tylko na mniejszą skalę.
 
-<a id="ref-3"></a>[Na razie nie piszemy kodu](02%20My%C5%9Bl%20krok%20po%20kroku.md#ref-8). Ten problem z wydatkami będzie jednak [przykładem, który będzie nam towarzyszył](#ref-7): <a id="ref-2"></a>program „Wspólna Kasa” zbudujemy razem, a ty przećwiczysz w tej roli.
+<a id="ref-3"></a>[Na razie nie piszemy kodu](03%20Napisz%20i%20uruchom%20kod.md#ref-35). Ten problem z wydatkami będzie jednak przykładem, który będzie nam towarzyszył: <a id="ref-2"></a>program „Wspólna Kasa” zbudujemy razem, a ty przećwiczysz w tej roli.
 
 ## Poznaj język programowania
 
-<a id="ref-5"></a>Język programowania to ściśle określony sposób zapisywania instrukcji, który potrafi zrozumieć komputer. Ma własne słowa i reguły zapisu, ale jest o wiele prostszy i bardziej rygorystyczny niż język polski.
+Język programowania to <a id="ref-5"></a>ściśle określony sposób zapisywania instrukcji, który potrafi zrozumieć komputer. Ma własne słowa i reguły zapisu, ale jest o wiele prostszy i bardziej rygorystyczny niż język polski.
 
 Komputer nie wyciąga wniosków z kontekstu. Zdanie „podziel rachunek po równo” człowiek zrozumie od razu, komputer nie. Język programowania wymusza zapis, który ma jedno znaczenie. Zbiór jego reguł nazywamy [składnią](00%20Glosariusz.md#składnia): mówi ona, jak wolno układać słowa i znaki, żeby powstało poprawne polecenie.
 
-Oto jedna instrukcja w Pythonie, [języku, którego użyjemy w tym tutorialu](02%20My%C5%9Bl%20krok%20po%20kroku.md#ref-9):
+Oto jedna instrukcja w Pythonie, [języku, którego użyjemy w tym tutorialu](03%20Napisz%20i%20uruchom%20kod.md#ref-16):
 
 ```python
 print("Cześć, Wspólna Kasa!")
@@ -109,7 +109,7 @@ Słowo `print` znaczy „wypisz”, a tekst w cudzysłowie to to, co ma się poj
 
 Języków jest bardzo wiele, a każdy ma inną składnię i inne zastosowania. Różnią się zapisem, ale robią to samo: pozwalają opisać kroki, które komputer wykona. Kto pozna zasady jednego, łatwiej nauczy się następnych.
 
-[Pythonem zajmiemy się osobno, gdy przejdziemy do pisania „Wspólnej Kasy”](02%20My%C5%9Bl%20krok%20po%20kroku.md#ref-10).
+[Pythonem zajmiemy się osobno, gdy przejdziemy do pisania „Wspólnej Kasy”](07%20Uporz%C4%85dkuj%20kod%20funkcjami.md#ref-28).
 
 _Wersje: Python 3.13 · [źródła: 2](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.md#01-wejdź-w-świat-programowania)_
 

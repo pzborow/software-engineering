@@ -55,7 +55,7 @@ print(kwota % 3)
 
 Końcówka `...336` to drobna nieścisłość: komputer trzyma ułamki w przybliżeniu.
 
-Odejmowanie, dzielenie, `//`, `%` i `**` mają sens tylko na liczbach. Skoro `nazwa_wyjazdu` jest tekstem, `nazwa_wyjazdu / 2` kończy się błędem `TypeError`. Wyjątkiem są `+` i `*`, które na tekście działają inaczej: sklejają i powtarzają.
+Odejmowanie, dzielenie, `//`, `%` i `**` mają sens tylko na liczbach. [Skoro `nazwa_wyjazdu` jest tekstem](04%20Zapami%C4%99taj%20dane%20w%20zmiennych.md#lm-24), `nazwa_wyjazdu / 2` kończy się błędem `TypeError`. Wyjątkiem są `+` i `*`, które na tekście działają inaczej: sklejają i powtarzają.
 
 ```python
 print("Ania" + "Bartek")
@@ -276,7 +276,7 @@ Program porównuje wartości [operatorami porównania](00%20Glosariusz.md#operat
 | `a < b`, `a > b` | mniejsze, większe |
 | `a <= b`, `a >= b` | mniejsze lub równe, większe lub równe |
 
-Uwaga na `==`: pojedynczy znak `=` to [przypisanie](00%20Glosariusz.md#przypisanie), czyli zapisanie wartości w zmiennej. Dopiero podwójny pyta „czy są równe?” i niczego nie zmienia.
+Uwaga na `==`: [pojedynczy znak `=` to przypisanie](04%20Zapami%C4%99taj%20dane%20w%20zmiennych.md#przypisz-wartość-zmiennej), czyli zapisanie wartości w zmiennej. Dopiero podwójny pyta „czy są równe?” i niczego nie zmienia.
 
 ```python
 kwota = 45.5
@@ -297,9 +297,9 @@ False
 False
 ```
 
-Dwa ostatnie wyniki pokazują, że porównanie jest ścisłe. Wielka i mała litera to różne znaki, więc `"Ania"` i `"ania"` się różnią. Tekst `"45.5"` i liczba 45.5 to różne typy, więc też nie są równe, choć wyglądają podobnie.
+Dwa ostatnie wyniki pokazują, że porównanie jest ścisłe. Wielka i mała litera to różne znaki, więc `"Ania"` i `"ania"` się różnią. [Tekst `"45.5"` i liczba 45.5 to różne typy](04%20Zapami%C4%99taj%20dane%20w%20zmiennych.md#lm-27), więc też nie są równe, choć wyglądają podobnie.
 
-Sam wynik `True` lub `False` jeszcze nic nie robi. Dopiero [instrukcja warunkowa, o której będzie następna sekcja](#ref-69), pozwoli programowi wybrać na jego podstawie, co zrobić dalej.
+Sam wynik `True` lub `False` jeszcze nic nie robi. Dopiero [instrukcja warunkowa](00%20Glosariusz.md#instrukcja-warunkowa), o której będzie następna sekcja, pozwoli programowi wybrać na jego podstawie, co zrobić dalej.
 
 > **Warsztat: zrób u siebie**
 
@@ -373,9 +373,9 @@ _[źródła: 1](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.md#05-podejmuj-decyzje-w
 
 ## Zapisz warunek z if
 
-[Instrukcja warunkowa](00%20Glosariusz.md#instrukcja-warunkowa) to polecenie, które <a id="ref-69"></a>wykonuje wybrany fragment kodu tylko wtedy, gdy warunek jest prawdziwy. W Pythonie zapisujemy ją słowem `if`, czyli „jeśli”.
+Instrukcja warunkowa to polecenie, które <a id="ref-69"></a>wykonuje wybrany fragment kodu tylko wtedy, gdy warunek jest prawdziwy. W Pythonie zapisujemy ją słowem `if`, czyli „jeśli”.
 
-<a id="ref-61"></a>Warunek to zwykle [porównanie z poprzedniej sekcji](#porównaj-dwie-wartości), bo daje `True` albo `False`. Jeśli wynik to `True`, Python wykonuje zapisane pod spodem linie. Jeśli `False`, pomija je i idzie dalej.
+Warunek to zwykle [porównanie z poprzedniej sekcji](#porównaj-dwie-wartości), bo daje `True` albo `False`. <a id="ref-61"></a>Jeśli wynik to `True`, Python wykonuje zapisane pod spodem linie. Jeśli `False`, pomija je i idzie dalej.
 
 Które linie należą do warunku, pokazuje [wcięcie](00%20Glosariusz.md#wcięcie): przesunięcie linii o cztery spacje w prawo. Po warunku stawiamy dwukropek.
 
@@ -393,9 +393,9 @@ Kwota do sprawdzenia
 Koniec
 ```
 
-<a id="lm-36"></a>Pierwszy warunek jest prawdziwy, więc jego linia się wykonała. Drugi jest fałszywy, więc jego wcięta linia została pominięta. Ostatni `print` nie ma wcięcia, więc należy do całego programu i wykonuje się zawsze.
+Pierwszy warunek jest prawdziwy, więc jego linia się wykonała. Drugi jest fałszywy, więc jego wcięta linia została pominięta. <a id="lm-36"></a>Ostatni `print` nie ma wcięcia, więc należy do całego programu i wykonuje się zawsze.
 
-Program przestaje więc biegnąć wszystkimi liniami po kolei: to, co wykona, zależy od danych. Co zrobić, gdy warunek jest fałszywy, [pokażemy w następnej sekcji](#ref-71).
+Program przestaje więc biegnąć wszystkimi liniami po kolei: to, co wykona, zależy od danych. Co zrobić, gdy warunek jest fałszywy, pokażemy w następnej sekcji.
 
 > **Warsztat: zrób u siebie**
 
@@ -477,7 +477,7 @@ _Wersje: Python 3.13 · [źródła: 1](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.m
 
 ## Dodaj drugą drogę
 
-<a id="ref-71"></a>Część `else`, czyli „w przeciwnym razie”, wykonuje swoje linie wtedy, gdy warunek z `if` jest fałszywy. Dzięki niej program zawsze wybiera jedną z dwóch dróg, a nie tylko „robi coś albo nic”.
+Część `else`, czyli „w przeciwnym razie”, <a id="ref-71"></a>wykonuje swoje linie wtedy, gdy warunek z `if` jest fałszywy. Dzięki niej program zawsze wybiera jedną z dwóch dróg, a nie tylko „robi coś albo nic”.
 
 Zapisujemy ją pod blokiem `if`, na tym samym poziomie wcięcia co samo `if`, z dwukropkiem po słowie `else`. Sama nie ma warunku: nie pyta o nic, bo obejmuje wszystko, czego `if` nie złapało. Jej własne linie też wcinamy o cztery spacje.
 
@@ -497,7 +497,7 @@ Koniec
 
 Warunek `kwota > 100` jest fałszywy, więc Python pominął pierwszy wcięty blok i wykonał ten pod `else`. Gdyby kwota wynosiła 150, wypisałoby się tylko „Bardzo duża kwota”. Oba bloki nigdy nie wykonają się naraz. Ostatni `print` nie ma wcięcia, więc, [jak w poprzedniej sekcji, działa zawsze](#lm-36).
 
-Dla „Wspólnej Kasy” to ważne: program może teraz w każdym przypadku powiedzieć coś sensownego, osobno o dużej i zwykłej kwocie. Sprawdzanie kilku warunków naraz, czyli „i” oraz „lub”, [pokażemy w następnej sekcji](#ref-73).
+Dla „Wspólnej Kasy” to ważne: program może teraz w każdym przypadku powiedzieć coś sensownego, osobno o dużej i zwykłej kwocie. Sprawdzanie kilku warunków naraz, czyli „i” oraz „lub”, pokażemy w następnej sekcji.
 
 > **Warsztat: zrób u siebie**
 

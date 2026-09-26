@@ -44,7 +44,7 @@ def zapytaj_o_wydatek():
     ...
 ```
 
-Ważna konsekwencja: program nie kontroluje, co dostanie. Ktoś może wpisać „abc” zamiast kwoty, a plik może być pusty. Dlatego dane wejściowe trzeba traktować ostrożnie i sprawdzać. O wyniku, który program oddaje na zewnątrz, [opowiemy osobno, przy danych wyjściowych](#ref-105).
+Ważna konsekwencja: program nie kontroluje, co dostanie. Ktoś może wpisać „abc” zamiast kwoty, a plik może być pusty. Dlatego dane wejściowe trzeba traktować ostrożnie i sprawdzać. O wyniku, który program oddaje na zewnątrz, opowiemy osobno, przy danych wyjściowych.
 
 _[źródła: 1](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.md#08-porozmawiaj-z-użytkownikiem)_
 
@@ -97,7 +97,7 @@ def zapytaj_o_wydatek():
     ...
 ```
 
-<a id="lm-54"></a>Pułapka: `input` zawsze zwraca tekst, nawet gdy ktoś wpisze `45.5`. Dla Pythona to wciąż „45.5” w cudzysłowie, czyli tekst, którego nie da się dzielić ani dodawać do liczb (skończyłoby się to błędem [TypeError](00%20Glosariusz.md#typeerror)). Dlatego `float()` zamienia tekst na liczbę. Spacja na końcu pytania oddziela je od tego, co wpisze użytkownik.
+Pułapka: <a id="lm-54"></a>`input` zawsze zwraca tekst, nawet gdy ktoś wpisze `45.5`. Dla Pythona to wciąż „45.5” w cudzysłowie, czyli tekst, którego nie da się dzielić ani dodawać do liczb (skończyłoby się to błędem [TypeError](00%20Glosariusz.md#typeerror)). Dlatego `float()` zamienia tekst na liczbę. Spacja na końcu pytania oddziela je od tego, co wpisze użytkownik.
 
 Konsekwencja: [kod zostaje ten sam, a dane przychodzą przy każdym uruchomieniu inne](#lm-52). Ale `float("abc")` przerwie program błędem. Jak się przed tym bronić, pokażemy przy sprawdzaniu danych wpisanych przez użytkownika.
 
@@ -159,7 +159,7 @@ Ania;120.5
 Bartek;45.5
 ```
 
-Uwaga: plik przechowuje wyłącznie tekst, więc kwotę po wczytaniu trzeba znów zamienić przez `float()`, bo `input` zawsze zwraca tekst, nawet gdy ktoś wpisze `45.5`. Pułapką jest tryb `"w"`, który kasuje starą zawartość. Zanim ktoś wpisze do pliku coś błędnego, warto dane sprawdzić, [o czym powiemy przy sprawdzaniu danych użytkownika](#ref-112).
+Uwaga: plik przechowuje wyłącznie tekst, więc kwotę po wczytaniu trzeba znów zamienić przez `float()`, bo [`input` zawsze zwraca tekst, nawet gdy ktoś wpisze `45.5`](#lm-54). Pułapką jest tryb `"w"`, który kasuje starą zawartość. Zanim ktoś wpisze do pliku coś błędnego, warto dane sprawdzić, [o czym powiemy przy sprawdzaniu danych użytkownika](#ref-112).
 
 > **Warsztat: zrób u siebie**
 
@@ -216,7 +216,7 @@ Plik obrazu: `ilustracje/08-zapisz-dane-w-pliku-1.png`
 
 <a id="ref-108"></a>[Interfejs użytkownika](00%20Glosariusz.md#interfejs-użytkownika) to część programu, przez którą człowiek się z nim komunikuje: to, co program wyświetla, oraz sposób, w jaki przyjmuje od człowieka dane i polecenia. Użytkownik nie widzi kodu, widzi tylko interfejs.
 
-Interfejs bywa różny. W [interfejsie tekstowym](00%20Glosariusz.md#interfejs-tekstowy), czyli takim, który działa w terminalu na samych napisach, program zadaje pytania, a Ty odpisujesz z klawiatury. W interfejsie graficznym są okna i przyciski. Nasza „Wspólna Kasa” zostaje przy wersji tekstowej, bo wystarczą do niej dwie znane już rzeczy: input do pytań i [print](00%20Glosariusz.md#print) do wyników.
+Interfejs bywa różny. W [interfejsie tekstowym](00%20Glosariusz.md#interfejs-tekstowy), czyli takim, który działa w terminalu na samych napisach, program zadaje pytania, a Ty odpisujesz z klawiatury. W interfejsie graficznym są okna i przyciski. Nasza „Wspólna Kasa” zostaje przy wersji tekstowej, bo wystarczą do niej [dwie znane już rzeczy: input do pytań i print do wyników](#zapytaj-użytkownika-o-dane).
 
 Interfejs ma dwie strony: **wejście** (pytania, odpowiedzi) i **wyjście** (wyniki, komunikaty). To dokładnie dane wejściowe i dane wyjściowe, tylko widziane oczami człowieka. Stąd wniosek z wcześniejszych sekcji: [suchy wynik nic nie mówi komuś, kto nie zna kodu](#lm-53), więc trzeba go opisać.
 
@@ -237,7 +237,7 @@ Ania: 120.5 zł
 Bartek: 45.5 zł
 ```
 
-Konsekwencja: pytanie w rodzaju „Ile zapłacił? ” i czytelne podsumowanie to nie ozdoby, tylko część działania programu. Interfejs trzeba więc projektować, a [człowiek po drugiej stronie potrafi wpisać coś nieoczekiwanego](#ref-115).
+Konsekwencja: pytanie w rodzaju „Ile zapłacił? ” i czytelne podsumowanie to nie ozdoby, tylko część działania programu. Interfejs trzeba więc projektować, a człowiek po drugiej stronie potrafi wpisać coś nieoczekiwanego.
 
 > **Warsztat: zrób u siebie**
 
@@ -284,7 +284,7 @@ Bartek: 45.5 zł
 
 <a id="ref-112"></a>Program powinien sprawdzać dane od użytkownika, bo człowiek potrafi wpisać coś, czego kod się nie spodziewał, a wtedy program albo się zatrzyma, albo policzy coś błędnego.
 
-<a id="ref-115"></a><a id="ref-14"></a>Ta kontrola to [walidacja](00%20Glosariusz.md#walidacja-danych): sprawdzenie, czy wpisana wartość nadaje się do dalszej pracy, zanim program jej użyje. Pamiętasz, że input [zawsze zwraca tekst](#lm-54). Gdy ktoś na pytanie „Ile zapłacił?” wpisze `abc`, samo `float("abc")` przerwie program komunikatem o błędzie. A gdy wpisze `-5`, program nie zgłosi żadnego błędu i po cichu policzy złe saldo.
+<a id="ref-14"></a>Ta kontrola to [walidacja](00%20Glosariusz.md#walidacja-danych): sprawdzenie, czy wpisana wartość nadaje się do dalszej pracy, zanim program jej użyje. Pamiętasz, że input [zawsze zwraca tekst](#lm-54). <a id="ref-115"></a>Gdy ktoś na pytanie „Ile zapłacił?” wpisze `abc`, samo `float("abc")` przerwie program komunikatem o błędzie. A gdy wpisze `-5`, program nie zgłosi żadnego błędu i po cichu policzy złe saldo.
 
 Dlatego sprawdzamy dane w miejscu, gdzie wchodzą do programu. Pokazuje to funkcja `sprawdz_kwote`, która odpowiada `True` albo `False`:
 

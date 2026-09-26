@@ -57,7 +57,7 @@ Na osobę: 39.0
 
 <a id="lm-60"></a>Nie ma komunikatu, a wynik jest zły: powinno być 26.0, bo osób jest trzy.
 
-Konsekwencja: błędy składni są uciążliwe, ale łatwe, bo wskaże je Python. Za błędy logiczne odpowiadasz Ty, więc wynik porównuj z rachunkiem na kartce. [Czytanie komunikatów i szukanie takich błędów omówimy w kolejnych sekcjach tego działu](#ref-117).
+Konsekwencja: błędy składni są uciążliwe, ale łatwe, bo wskaże je Python. Za błędy logiczne odpowiadasz Ty, więc wynik porównuj z rachunkiem na kartce. [Czytanie komunikatów i szukanie takich błędów omówimy w kolejnych sekcjach tego działu](#ref-119).
 
 _Wersje: Python 3.13 · [źródła: 1](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.md#09-oswój-błędy-w-kodzie)_
 
@@ -161,7 +161,7 @@ Cisza po `assert` znaczy „zgadza się”. Gdyby ktoś zmienił dzielenie tak, 
 
 Dobre testy obejmują zwykłe dane i przypadki brzegowe, np. pustą listę wydatków. Kosztują chwilę, a po każdej zmianie kodu uruchamiasz je jednym poleceniem i wiesz, czy niczego nie zepsułeś.
 
-Test nie dowodzi, że błędów nie ma, tylko że w sprawdzonych przypadkach ich nie ma. Gdy test się wywali, [szukanie przyczyny omówimy przy debugowaniu](#ref-121).
+Test nie dowodzi, że błędów nie ma, tylko że w sprawdzonych przypadkach ich nie ma. Gdy test się wywali, szukanie przyczyny omówimy przy debugowaniu.
 
 > **Warsztat: zrób u siebie**
 
@@ -217,7 +217,7 @@ Plik obrazu: `ilustracje/09-przetestuj-swój-program-1.png`
 
 Metoda jest prosta. Najpierw odtwarzasz błąd na jednych, konkretnych danych. Potem zawężasz miejsce: przed podejrzanym krokiem wypisujesz wartości i porównujesz je z tym, czego oczekujesz. Pierwsze miejsce, w którym wartość jest inna niż powinna, wskazuje przyczynę. Na końcu poprawiasz jedną rzecz i uruchamiasz ponownie.
 
-Weźmy błąd logiczny z wynikiem 39.0 zamiast 26.0. Podejrzewamy dwa dane wejściowe dzielenia, więc je wypisujemy:
+Weźmy [błąd logiczny z wynikiem 39.0 zamiast 26.0](#lm-60). Podejrzewamy dwa dane wejściowe dzielenia, więc je wypisujemy:
 
 ```python
 def na_osobe(suma, osoby):
