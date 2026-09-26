@@ -32,8 +32,8 @@ Dziedzina: **Programowanie od podstaw** · perspektywa: **osoba spoza IT** · j�
 | klasyfikator_pułapek | 1 | 3 | 0.022 | 0 |
 | redaktor_tytułów | 1 | 42 | 0.115 | 0 |
 | autor_ściągawki | 1 | 41 | 0.120 | 0 |
-| redaktor_linków | 40 | 143 | 0.417 | 0 |
-| **razem** | 1261 | 9529 | 38.786 | 0 |
+| redaktor_linków | 50 | 213 | 0.725 | 0 |
+| **razem** | 1271 | 9599 | 39.094 | 0 |
 
 ## Zgłoszone potrzeby
 
@@ -7973,3 +7973,53 @@ Warto dodać zdanie, że linie pojawiają się co sekundę i nigdy się nie koń
 
 - Wynik: „Tak wygląda to we Wspólnej Kasie”: ścieżka 2 miejsc, link do miejsca 1. Miejsce 1 już pokazuje, jak wygląda to we „Wspólnej Kasie”: wejście to kwoty wpisane przez znajomych, przetwarzanie to podział rachunku, wyjście to wynik na ekranie. Miejsce 2 jest ogólne i mówi o programach na co dzień, nie o Kasie.
 - [prompt i odpowiedź](_przebieg/1261-redaktor-linkow.md) · 3.6 s · $0.0109
+
+### 1262 · redaktor_linków · dział 01
+
+- Wynik: Linki: 12 ocenionych, bez linku: 5: „przykład, który będzie nam towarzyszył” (Fraza to zapowiedź ramowa; cel to ogólna definicja programu, a nie przykład.); „Na razie nie piszemy kodu” (Zapowiedź ramowa, a cel to tylko powtórzenie tego samego zdania.); „Na razie nie piszemy kodu” (Cel (komentarze) nie ma związku z frazą; link przypadkowy.); „języku, którego użyjemy w tym tutorialu” (Cel to kod źródłowy, a fraza obiecuje informację o Pythonie.)
+- [prompt i odpowiedź](_przebieg/1262-redaktor-linkow.md) · 6.7 s · $0.0420
+
+### 1263 · redaktor_linków · dział 02
+
+- Wynik: Linki: 16 ocenionych, bez linku: 7: „Na razie nie piszemy kodu” (Zapowiedź ramowa; cel (komentarze) nie mówi nic o tym, że kod pojawi się później.); „Przykładem, który będzie nam towarzyszył, jest „Wspólna Kasa”” (Zapowiedź ramowa; cel o kodzie źródłowym tylko wspomina przykład, nie wyjaśnia go.); „we „Wspólnej Kasie”” (Cel to ogólna definicja programu, nie opisuje Wspólnej Kasy; fraza to ogólnik.); „przykład, który będzie nam towarzyszył” (Zapowiedź ramowa; cel (komentarze) jest przypadkowy.)
+- [prompt i odpowiedź](_przebieg/1263-redaktor-linkow.md) · 9.1 s · $0.0427
+
+### 1264 · redaktor_linków · dział 03
+
+- Wynik: Linki: 8 ocenionych, bez linku: 1: „nasz przykład, który będzie nam towarzyszył” (Cel to fragment o komentarzach, a fraza obiecuje przykład towarzyszący dalej; to zapowiedź ramowa, cel nie pasuje.)
+- [prompt i odpowiedź](_przebieg/1264-redaktor-linkow.md) · 6.2 s · $0.0254
+
+### 1265 · redaktor_linków · dział 04
+
+- Wynik: Linki: 13 ocenionych, bez linku: 5: „Pamiętasz, że dane trzeba gdzieś przechowywać” (Cel to definicja danej, nie mówi o potrzebie przechowywania; zdanie i tak wyjaśnia to samo.); „tak jak `kwota = 45.5` w „Wspólnej Kasie”” (Cel to ogólna definicja zmiennej; nie pokazuje kwota = 45.5 w Wspólnej Kasie, a czytelnik nie potrzebuje sprawdzać.); „Wcześniej pisaliśmy po prostu „rodzaj danych”” (Cel to definicja danej, a fraza odsyła do wcześniejszego sformułowania „rodzaj danych”; cel wprawdzie o rodzaju mówi, ale link tylko rozprasza przy definicji typu.); „imienia nie podzielisz przez 2” (Duplikat myśli z ref-50 w pobliżu; link powtarza ten sam cel i rozprasza.)
+- [prompt i odpowiedź](_przebieg/1265-redaktor-linkow.md) · 9.3 s · $0.0371
+
+### 1266 · redaktor_linków · dział 05
+
+- Wynik: Linki: 7 ocenionych, bez linku: 2: „Skoro `nazwa_wyjazdu` jest tekstem” (Cel to ogólne omówienie rodzajów danych; fraza jest nawiązaniem do zmiennej, nie obietnicą konkretnej treści.); „Obiecaliśmy w poprzedniej sekcji, że zajmiemy się tym osobno” (Cel to tabela działań matematycznych, a w niej nie ma sklejania tekstów obiecanego przez frazę.)
+- [prompt i odpowiedź](_przebieg/1266-redaktor-linkow.md) · 6.2 s · $0.0247
+
+### 1267 · redaktor_linków · dział 06
+
+- Wynik: Linki: 8 ocenionych, bez linku: 3: „Pętla `for`, którą znasz, kończy się sama” (Cel to ogólne wprowadzenie pętli; nie wyjaśnia, że for kończy się po wyczerpaniu danych. Link rozprasza.); „„Wspólna Kasa”, która czeka na koniec listy” (Cel to fragment o trzech powtórzeniach i wcięciu, nie o Wspólnej Kasie ani o czekaniu na koniec listy.); „wcześniej szła po imionach uczestników” (Cel pokazuje przykład z imionami, ale fragment o wcięciu, a nie o przechodzeniu po uczestnikach. Fraza to opis, nie coś do sprawdzenia.)
+- [prompt i odpowiedź](_przebieg/1267-redaktor-linkow.md) · 6.7 s · $0.0248
+
+### 1268 · redaktor_linków · dział 07
+
+- Wynik: Linki: 10 ocenionych, bez linku: 3: „U siebie masz już `funkcje.py` z funkcją `suma`” (Fraza o pliku u czytelnika; cel to fragment o pętli, nie o pliku funkcje.py.); „na_osobe(suma(mazury), 3)” (Cel to zapowiedź wydzielenia pętli, nie przykład z suma(mazury); nie daje tego, czego fraza dotyczy.); „U siebie w `funkcje.py` masz te same funkcje” (Cel to zapowiedź wydzielenia pętli, nie plik z suma i na_osobe.)
+- [prompt i odpowiedź](_przebieg/1268-redaktor-linkow.md) · 6.5 s · $0.0267
+
+### 1269 · redaktor_linków · dział 08
+
+- Wynik: Linki: 12 ocenionych, bez linku: 3: „Do tej pory kwoty wpisywaliśmy w kodzie” (Cel to ponowne użycie kodu, nie kwoty wpisane w kodzie; nie mówi tego, co fraza.); „przykładzie, który będzie nam towarzyszył” (Cel to Git i wersje kodu; tylko przypadkowo wspomina Wspólną Kasę, nie jest to zapowiedź przykładu.); „dwie znane już rzeczy: input do pytań i print do wyników” (Fraza to ogólnik o znanych rzeczach; cel input już wcześniej podlinkowany, rozprasza.)
+- [prompt i odpowiedź](_przebieg/1269-redaktor-linkow.md) · 7.3 s · $0.0341
+
+### 1270 · redaktor_linków · dział 09
+
+- Wynik: Linki: 7 ocenionych, bez linku: 2: „Czytanie komunikatów i szukanie takich błędów omówimy w kolejnych sekcjach tego działu” (Zapowiedź ramowa; cel jest ogólnym początkiem debugowania, a nie czytaniem komunikatów.); „Szukanie przyczyny krok po kroku omówimy przy debugowaniu” (Zapowiedź ramowa „omówimy przy debugowaniu”; link tylko rozprasza.)
+- [prompt i odpowiedź](_przebieg/1270-redaktor-linkow.md) · 5.3 s · $0.0214
+
+### 1271 · redaktor_linków · dział 10
+
+- Wynik: Linki: 9 ocenionych, bez linku: 3: „Program do dzielenia wspólnych wydatków między osoby, który budujesz w warsztacie” (Cel to przykład błędu logicznego, nie opis programu Wspólna Kasa; nie daje tego, co obiecuje fraza.); „Wspólna Kasa to jej przykład” (Fraza mówi o Wspólnej Kasie jako przykładzie tutorialu, a cel to sekcja o stronie i aplikacji mobilnej; nie pasuje.); „Tak wygląda to we Wspólnej Kasie” (Fraza zapowiada kod przykładu, a cel to ogólny akapit o stronie i aplikacji; nie pokazuje pętli ani funkcji.)
+- [prompt i odpowiedź](_przebieg/1271-redaktor-linkow.md) · 6.5 s · $0.0285

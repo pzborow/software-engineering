@@ -186,7 +186,7 @@ Pętla `for` ma z góry znany koniec. Pętlę, która nigdy się nie kończy, om
 
 <a id="ref-79"></a>[Pętla nieskończona](00%20Glosariusz.md#pętla-nieskończona) to pętla, która nigdy nie dochodzi do końca, bo jej warunek zakończenia nigdy nie zostaje spełniony. Program powtarza wtedy ten sam fragment bez końca, więc nie dociera do dalszych linii i nie oddaje wyniku.
 
-[Pętla `for`, którą znasz, kończy się sama](#powtórz-kod-pętlą), bo zestaw danych się wyczerpuje. Pętla `while` („dopóki”) działa inaczej: powtarza wcięte linie, dopóki warunek daje `True`. Jeśli warunek jest zawsze prawdziwy, każda kolejna iteracja zaczyna się od nowa.
+Pętla `for`, którą znasz, kończy się sama, bo zestaw danych się wyczerpuje. Pętla `while` („dopóki”) działa inaczej: powtarza wcięte linie, dopóki warunek daje `True`. Jeśli warunek jest zawsze prawdziwy, każda kolejna iteracja zaczyna się od nowa.
 
 ```python
 import time
@@ -197,7 +197,7 @@ while True:
 
 Tu warunek to na stałe `True`, a w ciele nic go nie zmienia. Linia `time.sleep(1)` robi tylko jednosekundową przerwę, żeby napisy nie zalały ekranu. Zdarza się to też przez pomyłkę: warunek zależy od zmiennej, której pętla nigdy nie zmienia.
 
-Problem jest praktyczny. Program wygląda na zawieszony, zajmuje procesor i nigdy nie pokaże sumy wydatków. Tak samo wyglądałaby [„Wspólna Kasa”, która czeka na koniec listy](#lm-39), którego nie ma.
+Problem jest praktyczny. Program wygląda na zawieszony, zajmuje procesor i nigdy nie pokaże sumy wydatków. Tak samo wyglądałaby „Wspólna Kasa”, która czeka na koniec [listy](00%20Glosariusz.md#lista-danych), którego nie ma.
 
 Zatrzymasz taki program skrótem Ctrl+C w terminalu. Python przerywa wtedy działanie i wypisuje komunikat `KeyboardInterrupt`, czyli „przerwano z klawiatury”. To nie awaria, tylko Twoja komenda.
 
@@ -257,9 +257,9 @@ Plik obrazu: `ilustracje/06-unikaj-pętli-nieskończonej-1.png`
 
 ## Zbierz dane w liście
 
-[Lista danych](00%20Glosariusz.md#lista-danych) to jedna zmienna, która przechowuje wiele wartości w ustalonej kolejności. Zamiast trzech zmiennych z imionami masz jedną nazwę, pod którą leży cały zestaw.
+Lista danych to jedna zmienna, która przechowuje wiele wartości w ustalonej kolejności. Zamiast trzech zmiennych z imionami masz jedną nazwę, pod którą leży cały zestaw.
 
-Właśnie po takim zestawie chodzi pętla `for`: [wcześniej szła po imionach uczestników](#lm-39), a teraz przyglądamy się samej liście.
+Właśnie po takim zestawie chodzi pętla `for`: wcześniej szła po imionach uczestników, a teraz przyglądamy się samej liście.
 
 <a id="ref-75"></a>Listę zapisujesz w nawiasach kwadratowych, a wartości oddzielasz przecinkami. Każda wartość to element listy, czyli jedno miejsce w zestawie. Tekst ma cudzysłów, liczba nie, tak samo jak przy zwykłych zmiennych.
 

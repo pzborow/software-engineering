@@ -33,7 +33,7 @@ użytkownik --wpisuje--> [ program ] --pokazuje--> użytkownik
 | [plik](00%20Glosariusz.md#plik) | `wydatki.csv` z listą dotychczasowych wydatków |
 | inny program | dane wyeksportowane z aplikacji banku |
 
-[Do tej pory kwoty wpisywaliśmy w kodzie](07%20Uporz%C4%85dkuj%20kod%20funkcjami.md#lm-51), np. `mazury = [45.5, 20, 12.5]`. Wtedy każda zmiana danych wymagała edycji programu. Dane wejściowe rozdzielają obie sprawy: <a id="lm-52"></a>kod zostaje ten sam, a dane przychodzą przy każdym uruchomieniu inne.
+Do tej pory kwoty wpisywaliśmy w kodzie, np. `mazury = [45.5, 20, 12.5]`. Wtedy każda zmiana danych wymagała edycji programu. Dane wejściowe rozdzielają obie sprawy: <a id="lm-52"></a>kod zostaje ten sam, a dane przychodzą przy każdym uruchomieniu inne.
 
 Tak mogłoby wyglądać pobranie danych od użytkownika (szkic, do którego wrócimy, [gdy zajmiemy się pytaniem użytkownika o informację](#ref-104)):
 
@@ -87,7 +87,7 @@ Konsekwencja: o tym, co program wypisze, decydujesz Ty. <a id="lm-53"></a>Suchy 
 
 Tekst w nawiasach to pytanie, które zobaczy użytkownik. Wynik `input` przypisujesz do zmiennej, jak każdą [wartość zwracaną](00%20Glosariusz.md#wartość-zwracana). Program stoi w miejscu, dopóki odpowiedź nie nadejdzie.
 
-Pokażemy to na [przykładzie, który będzie nam towarzyszył](09%20Osw%C3%B3j%20b%C5%82%C4%99dy%20w%20kodzie.md#ref-110): „Wspólnej Kasie”, czyli programie do rozliczania wspólnych wydatków znajomych. <a id="ref-13"></a>Zaczynamy dobudowywać do niego pytania do użytkownika, a pierwsze dotyczy nowego wydatku:
+Pokażemy to na przykładzie, który będzie nam towarzyszył: „Wspólnej Kasie”, czyli programie do rozliczania wspólnych wydatków znajomych. <a id="ref-13"></a>Zaczynamy dobudowywać do niego pytania do użytkownika, a pierwsze dotyczy nowego wydatku:
 
 ```python
 def zapytaj_o_wydatek():
@@ -216,7 +216,7 @@ Plik obrazu: `ilustracje/08-zapisz-dane-w-pliku-1.png`
 
 <a id="ref-108"></a>[Interfejs użytkownika](00%20Glosariusz.md#interfejs-użytkownika) to część programu, przez którą człowiek się z nim komunikuje: to, co program wyświetla, oraz sposób, w jaki przyjmuje od człowieka dane i polecenia. Użytkownik nie widzi kodu, widzi tylko interfejs.
 
-Interfejs bywa różny. W [interfejsie tekstowym](00%20Glosariusz.md#interfejs-tekstowy), czyli takim, który działa w terminalu na samych napisach, program zadaje pytania, a Ty odpisujesz z klawiatury. W interfejsie graficznym są okna i przyciski. Nasza „Wspólna Kasa” zostaje przy wersji tekstowej, bo wystarczą do niej [dwie znane już rzeczy: input do pytań i print do wyników](#zapytaj-użytkownika-o-dane).
+Interfejs bywa różny. W [interfejsie tekstowym](00%20Glosariusz.md#interfejs-tekstowy), czyli takim, który działa w terminalu na samych napisach, program zadaje pytania, a Ty odpisujesz z klawiatury. W interfejsie graficznym są okna i przyciski. Nasza „Wspólna Kasa” zostaje przy wersji tekstowej, bo wystarczą do niej dwie znane już rzeczy: input do pytań i [print](00%20Glosariusz.md#print) do wyników.
 
 Interfejs ma dwie strony: **wejście** (pytania, odpowiedzi) i **wyjście** (wyniki, komunikaty). To dokładnie dane wejściowe i dane wyjściowe, tylko widziane oczami człowieka. Stąd wniosek z wcześniejszych sekcji: [suchy wynik nic nie mówi komuś, kto nie zna kodu](#lm-53), więc trzeba go opisać.
 

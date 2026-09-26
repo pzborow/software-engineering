@@ -106,7 +106,7 @@ Ta sama logika obsłużyła dwa wyjazdy, choć zapisaliśmy ją raz. Gdyby licze
 
 Druga korzyść to czytelność: `na_osobe(suma(mazury), 3)` mówi, co się dzieje, bez zaglądania w pętlę. Trzecia to sprawdzanie: małą funkcję z jasnym wejściem i wynikiem łatwo przetestować osobno, [do czego wrócimy przy testowaniu programu](09%20Osw%C3%B3j%20b%C5%82%C4%99dy%20w%20kodzie.md#ref-91).
 
-[U siebie masz już `funkcje.py` z funkcją `suma`](#lm-45).
+U siebie masz już `funkcje.py` z funkcją `suma`.
 
 > **Warsztat: zrób u siebie**
 
@@ -273,7 +273,7 @@ None
 
 Pierwsza `75.0` pochodzi z `print` wewnątrz `wypisz_na_osobe`, w chwili wywołania. Druga to `wynik`, czyli wartość zwrócona i zapisana. <a id="lm-49"></a>Zmienna `nic` trzyma tylko `None`, bo ta funkcja niczego nie zwróciła. Nazwy `wynik` i `nic` służą tylko tej ilustracji.
 
-Konsekwencja jest praktyczna: tylko zwrócony wynik da się wykorzystać dalej. Dlatego `[na_osobe(suma(mazury), 3)](#lm-45)` działa: wynik jednej funkcji trafia jako argument do drugiej.
+Konsekwencja jest praktyczna: tylko zwrócony wynik da się wykorzystać dalej. Dlatego `na_osobe(suma(mazury), 3)` działa: wynik jednej funkcji trafia jako argument do drugiej.
 
 > **Wtręt:** Marta napisała funkcję `na_osobe`, która na końcu robiła `print(suma / osoby)`, i uznała, że wynik jest gotowy. Próbując dodać do niego napiwek, wpisała `na_osobe(300, 4) + 10` i dostała czerwony `TypeError` o `NoneType` i `int`. Na ekranie przecież widziała `75.0`, ale to było tylko wypisanie: funkcja nic nie oddała, więc do dodawania trafiło `None`. Zamieniła `print` na `return` i napiwek wreszcie się dodał.
 
@@ -347,7 +347,7 @@ Ma to dwie konsekwencje. Gdy znajdziesz błąd w liczeniu sumy, poprawiasz go ra
 
 Właśnie po to funkcje mają parametry: to, co stałe, zostaje w środku, a to, co zmienne, wchodzi z zewnątrz.
 
-[U siebie w `funkcje.py` masz te same funkcje](#lm-45) (pod krótszymi nazwami `suma` i `na_osobe`). Ostatnia linia wywołuje `na_osobe(300)` z jednym argumentem zamiast dwóch, stąd błąd.
+U siebie w `funkcje.py` masz te same funkcje (pod krótszymi nazwami `suma` i `na_osobe`). Ostatnia linia wywołuje `na_osobe(300)` z jednym argumentem zamiast dwóch, stąd błąd.
 
 > **Warsztat: zrób u siebie**
 

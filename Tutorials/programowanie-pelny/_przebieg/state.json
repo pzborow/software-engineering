@@ -9133,7 +9133,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "osoba, która zamienia potrzebę na instrukcje|sec-01-kim-jest-programista|ref-1"
   },
   {
    "id": "ref-2",
@@ -9150,7 +9152,9 @@
    "note": "",
    "via_section": "sec-01-czym-jest-program-komputerowy",
    "via_anchor": "lm-2",
-   "chain_checked": "ref-2|ref-7|lm-2"
+   "chain_checked": "ref-2|ref-7|lm-2",
+   "link_ok": false,
+   "link_checked": "przykład, który będzie nam towarzyszył|sec-01-czym-jest-program-komputerowy|lm-2"
   },
   {
    "id": "ref-3",
@@ -9167,7 +9171,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-3|ref-7|lm-2"
+   "chain_checked": "ref-3|ref-7|lm-2",
+   "link_ok": false,
+   "link_checked": "Na razie nie piszemy kodu|sec-01-kim-jest-programista|ref-3"
   },
   {
    "id": "ref-4",
@@ -9184,7 +9190,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-2|ref-2|ref-7"
+   "chain_checked": "lm-2|ref-2|ref-7",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-5",
@@ -9201,7 +9209,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Tym językiem zajmiemy się osobno|sec-01-czym-jest-jezyk-programowania|ref-5"
   },
   {
    "id": "ref-6",
@@ -9218,7 +9228,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-2|ref-2|ref-7"
+   "chain_checked": "lm-2|ref-2|ref-7",
+   "link_ok": true,
+   "link_checked": "Weźmy czworo znajomych z wyjazdu|sec-01-czym-jest-program-komputerowy|lm-2"
   },
   {
    "id": "ref-7",
@@ -9235,7 +9247,9 @@
    "note": "",
    "via_section": "sec-01-czym-jest-program-komputerowy",
    "via_anchor": "lm-2",
-   "chain_checked": "ref-7|lm-2|ref-2|ref-8"
+   "chain_checked": "ref-7|lm-2|ref-2|ref-8",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-8",
@@ -9252,7 +9266,9 @@
    "note": "",
    "via_section": "sec-03-do-czego-sluza-komentarze",
    "via_anchor": "ref-35",
-   "chain_checked": "ref-8|ref-16|ref-35"
+   "chain_checked": "ref-8|ref-16|ref-35",
+   "link_ok": false,
+   "link_checked": "Na razie nie piszemy kodu|sec-03-do-czego-sluza-komentarze|ref-35"
   },
   {
    "id": "ref-9",
@@ -9269,7 +9285,9 @@
    "note": "",
    "via_section": "sec-03-czym-jest-kod-zrodlowy",
    "via_anchor": "ref-16",
-   "chain_checked": "ref-9|ref-16|ref-35"
+   "chain_checked": "ref-9|ref-16|ref-35",
+   "link_ok": false,
+   "link_checked": "języku, którego użyjemy w tym tutorialu|sec-03-czym-jest-kod-zrodlowy|ref-16"
   },
   {
    "id": "ref-10",
@@ -9286,7 +9304,9 @@
    "note": "",
    "via_section": "sec-07-czym-jest-funkcja",
    "via_anchor": "ref-28",
-   "chain_checked": "ref-10|ref-28|lm-44"
+   "chain_checked": "ref-10|ref-28|lm-44",
+   "link_ok": false,
+   "link_checked": "Pythonem zajmiemy się osobno, gdy przejdziemy do pisania „Wspólnej Kasy”|sec-07-czym-jest-funkcja|ref-28"
   },
   {
    "id": "ref-11",
@@ -9303,7 +9323,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-2|ref-2|ref-7"
+   "chain_checked": "lm-2|ref-2|ref-7",
+   "link_ok": true,
+   "link_checked": "Wróćmy do czworga znajomych na wyjeździe|sec-01-czym-jest-program-komputerowy|lm-2"
   },
   {
    "id": "ref-12",
@@ -9320,7 +9342,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-2|ref-2|ref-7|ref-13"
+   "chain_checked": "lm-2|ref-2|ref-7|ref-13",
+   "link_ok": true,
+   "link_checked": "„Wspólna Kasa”, przykład, który będzie nam towarzyszył|sec-01-czym-jest-program-komputerowy|lm-2"
   },
   {
    "id": "ref-13",
@@ -9337,7 +9361,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-13|ref-110"
+   "chain_checked": "ref-13|ref-110",
+   "link_ok": true,
+   "link_checked": "pytania do użytkownika|sec-08-pytanie-uzytkownika-o-informacje|ref-13"
   },
   {
    "id": "ref-14",
@@ -9354,7 +9380,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-14|lm-54"
+   "chain_checked": "ref-14|lm-54",
+   "link_ok": true,
+   "link_checked": "sprawdzanie danych|sec-08-po-co-sprawdzac-dane-uzytkownika|ref-14"
   },
   {
    "id": "ref-15",
@@ -9371,7 +9399,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-2|ref-2|ref-7"
+   "chain_checked": "lm-2|ref-2|ref-7",
+   "link_ok": true,
+   "link_checked": "czworo znajomych na wyjeździe, którzy płacili na zmianę|sec-01-czym-jest-program-komputerowy|lm-2"
   },
   {
    "id": "ref-16",
@@ -9388,7 +9418,9 @@
    "note": "",
    "via_section": "sec-03-do-czego-sluza-komentarze",
    "via_anchor": "ref-35",
-   "chain_checked": "ref-16|ref-35"
+   "chain_checked": "ref-16|ref-35",
+   "link_ok": false,
+   "link_checked": "Na razie nie piszemy kodu|sec-03-do-czego-sluza-komentarze|ref-35"
   },
   {
    "id": "ref-17",
@@ -9405,7 +9437,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "cztery kroki rozliczenia, które już znasz|sec-02-czym-jest-algorytm|lm-8"
   },
   {
    "id": "ref-18",
@@ -9422,7 +9456,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-19",
@@ -9439,7 +9475,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-19|ref-35"
+   "chain_checked": "ref-19|ref-35",
+   "link_ok": false,
+   "link_checked": "Przykładem, który będzie nam towarzyszył, jest „Wspólna Kasa”|sec-03-czym-jest-kod-zrodlowy|ref-19"
   },
   {
    "id": "ref-20",
@@ -9456,7 +9494,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "cztery kroki rozliczenia|sec-02-czym-jest-algorytm|lm-8"
   },
   {
    "id": "ref-21",
@@ -9473,7 +9513,9 @@
    "note": "",
    "via_section": "sec-01-czym-jest-program-komputerowy",
    "via_anchor": "lm-2",
-   "chain_checked": "lm-7|lm-2|ref-2"
+   "chain_checked": "lm-7|lm-2|ref-2",
+   "link_ok": false,
+   "link_checked": "we „Wspólnej Kasie”|sec-01-czym-jest-program-komputerowy|lm-2"
   },
   {
    "id": "ref-22",
@@ -9490,7 +9532,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "rozliczenie „Wspólnej Kasy” z trzema osobami|sec-02-czym-jest-algorytm|lm-8"
   },
   {
    "id": "ref-23",
@@ -9507,7 +9551,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-24",
@@ -9524,7 +9570,9 @@
    "note": "",
    "via_section": "sec-03-do-czego-sluza-komentarze",
    "via_anchor": "ref-35",
-   "chain_checked": "ref-24|ref-35"
+   "chain_checked": "ref-24|ref-35",
+   "link_ok": false,
+   "link_checked": "przykład, który będzie nam towarzyszył|sec-03-do-czego-sluza-komentarze|ref-35"
   },
   {
    "id": "ref-25",
@@ -9541,7 +9589,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "dostanie z niego kod dopiero później|sec-03-czym-jest-kod-zrodlowy|ref-25"
   },
   {
    "id": "ref-26",
@@ -9558,7 +9608,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "schematu blokowego z poprzedniej sekcji|sec-02-czym-jest-schemat-blokowy|ref-26"
   },
   {
    "id": "ref-27",
@@ -9575,7 +9627,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "tak jak w sekcji o kolejności kroków|sec-02-kolejnosc-krokow-algorytmu|ref-27"
   },
   {
    "id": "ref-28",
@@ -9592,7 +9646,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-28|lm-44"
+   "chain_checked": "ref-28|lm-44",
+   "link_ok": false,
+   "link_checked": "takie części zamienimy w osobne|sec-07-czym-jest-funkcja|ref-28"
   },
   {
    "id": "ref-29",
@@ -9609,7 +9665,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Ich nazwy, np. `suma_wydatkow`, poznasz później|sec-07-czytelne-nazwy-zmiennych-i-funkcji|ref-29"
   },
   {
    "id": "ref-30",
@@ -9626,7 +9684,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-30|lm-18"
+   "chain_checked": "ref-30|lm-18",
+   "link_ok": false,
+   "link_checked": "przykład, który będzie nam towarzyszył w kolejnych działach|sec-03-kompilator-i-interpreter|ref-30"
   },
   {
    "id": "ref-31",
@@ -9643,7 +9703,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "w naszej liście kroków jest zdanie „Resztę groszy dopisz pierwszej osobie.”|sec-01-po-co-komputerowi-precyzja|lm-6"
   },
   {
    "id": "ref-32",
@@ -9660,7 +9722,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Do systematycznego sprawdzania wrócimy przy testowaniu programu|sec-09-czym-jest-testowanie-programu|ref-32"
   },
   {
    "id": "ref-33",
@@ -9677,7 +9741,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Ten sam algorytm, który wcześniej opisywaliśmy słowami i schematem|sec-02-czym-jest-algorytm|lm-8"
   },
   {
    "id": "ref-34",
@@ -9694,7 +9760,9 @@
    "note": "",
    "via_section": "sec-03-kompilator-i-interpreter",
    "via_anchor": "ref-38",
-   "chain_checked": "ref-34|ref-38"
+   "chain_checked": "ref-34|ref-38",
+   "link_ok": true,
+   "link_checked": "jak to działa, pokażemy przy uruchamianiu programu|sec-03-kompilator-i-interpreter|ref-38"
   },
   {
    "id": "ref-35",
@@ -9711,7 +9779,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "nasz przykład, który będzie nam towarzyszył|sec-03-do-czego-sluza-komentarze|ref-35"
   },
   {
    "id": "ref-36",
@@ -9728,7 +9798,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-15|lm-8"
+   "chain_checked": "lm-15|lm-8",
+   "link_ok": true,
+   "link_checked": "Skoro kod jest zwykłym plikiem tekstowym|sec-03-czym-jest-kod-zrodlowy|lm-15"
   },
   {
    "id": "ref-37",
@@ -9745,7 +9817,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-38",
@@ -9762,7 +9836,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-38|ref-39"
+   "chain_checked": "ref-38|ref-39",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-39",
@@ -9779,7 +9855,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "To ten wykonawca, o którym była mowa przy uruchamianiu programu|sec-03-co-znaczy-uruchomic-program|ref-39"
   },
   {
    "id": "ref-40",
@@ -9796,7 +9874,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Zmieniasz `rozlicz.py`, zapisujesz i uruchamiasz ponownie|sec-03-co-znaczy-uruchomic-program|lm-18"
   },
   {
    "id": "ref-41",
@@ -9813,7 +9893,9 @@
    "note": "Żadna dalsza sekcja jej nie spełniła.",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-42",
@@ -9830,7 +9912,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "omówimy osobno, w dziale o poprawianiu programów|sec-09-blad-skladni-a-blad-logiczny|ref-42"
   },
   {
    "id": "ref-43",
@@ -9847,7 +9931,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "U siebie w pliku masz komentarz w pierwszej linii i literówkę `prnt` w drugiej|sec-03-co-to-jest-blad-w-programie|lm-21"
   },
   {
    "id": "ref-44",
@@ -9864,7 +9950,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-45",
@@ -9881,7 +9969,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "wyjaśnimy przy typach danych|sec-04-czym-jest-typ-danych|ref-45"
   },
   {
    "id": "ref-46",
@@ -9898,7 +9988,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "Pamiętasz, że dane trzeba gdzieś przechowywać|sec-04-czym-jest-dana|ref-46"
   },
   {
    "id": "ref-47",
@@ -9915,7 +10007,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-47|ref-62"
+   "chain_checked": "ref-47|ref-62",
+   "link_ok": true,
+   "link_checked": "Dokładniej opiszemy to przy przypisaniu|sec-04-przypisanie-wartosci-do-zmiennej|ref-47"
   },
   {
    "id": "ref-48",
@@ -9932,7 +10026,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-49",
@@ -9949,7 +10045,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-50",
@@ -9966,7 +10064,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "imię „Ania” nie do podzielenia przez 2|sec-04-czym-jest-dana|lm-24"
   },
   {
    "id": "ref-51",
@@ -9983,7 +10083,9 @@
    "note": "Żadna dalsza sekcja jej nie spełniła.",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-52",
@@ -10000,7 +10102,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-52|ref-65"
+   "chain_checked": "ref-52|ref-65",
+   "link_ok": true,
+   "link_checked": "Tym zajmiemy się osobno.|sec-05-laczenie-tekstow|ref-52"
   },
   {
    "id": "ref-53",
@@ -10017,7 +10121,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-53|ref-55"
+   "chain_checked": "ref-53|ref-55",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-54",
@@ -10034,7 +10140,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "tak jak `kwota = 45.5` w „Wspólnej Kasie”|sec-04-czym-jest-zmienna|ref-54"
   },
   {
    "id": "ref-55",
@@ -10051,7 +10159,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "Wcześniej pisaliśmy po prostu „rodzaj danych”|sec-04-czym-jest-dana|ref-55"
   },
   {
    "id": "ref-56",
@@ -10068,7 +10178,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "tylko cztery znaki: 4, 5, kropka, 5|sec-04-liczba-a-tekst|lm-27"
   },
   {
    "id": "ref-57",
@@ -10085,7 +10197,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "imienia nie podzielisz przez 2|sec-04-czym-jest-dana|lm-24"
   },
   {
    "id": "ref-58",
@@ -10102,7 +10216,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-59",
@@ -10119,7 +10235,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Ta sama zasada, co przy `\"45.5\"`|sec-04-liczba-a-tekst|lm-27"
   },
   {
    "id": "ref-60",
@@ -10136,7 +10254,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Zmienną logiczną podmieniasz jak każdą inną: po drugim przypisaniu `True` znika|sec-04-czym-jest-zmienna|lm-25"
   },
   {
    "id": "ref-61",
@@ -10153,7 +10273,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-61|ref-70"
+   "chain_checked": "ref-61|ref-70",
+   "link_ok": true,
+   "link_checked": "Jak to zapisać, pokażemy przy instrukcji warunkowej|sec-05-instrukcja-warunkowa-jesli-to|ref-61"
   },
   {
    "id": "ref-62",
@@ -10170,7 +10292,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "tak jak przy pudełku z etykietą|sec-04-zmienna-jako-pudelko-z-etykieta|ref-62"
   },
   {
    "id": "ref-63",
@@ -10187,7 +10311,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-64",
@@ -10204,7 +10330,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "Skoro `nazwa_wyjazdu` jest tekstem|sec-04-czym-jest-dana|lm-24"
   },
   {
    "id": "ref-65",
@@ -10221,7 +10349,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "Obiecaliśmy w poprzedniej sekcji, że zajmiemy się tym osobno|sec-05-dzialania-matematyczne-w-programie|ref-65"
   },
   {
    "id": "ref-66",
@@ -10238,7 +10368,9 @@
    "note": "Żadna dalsza sekcja jej nie spełniła.",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-67",
@@ -10255,7 +10387,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "pojedynczy znak `=` to przypisanie|sec-04-przypisanie-wartosci-do-zmiennej|ref-67"
   },
   {
    "id": "ref-68",
@@ -10272,7 +10406,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Tekst `\"45.5\"` i liczba 45.5 to różne typy|sec-04-liczba-a-tekst|lm-27"
   },
   {
    "id": "ref-69",
@@ -10289,7 +10425,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-70",
@@ -10306,7 +10444,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "porównanie z poprzedniej sekcji|sec-05-porownywanie-wartosci|ref-70"
   },
   {
    "id": "ref-71",
@@ -10323,7 +10463,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-72",
@@ -10340,7 +10482,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "jak w poprzedniej sekcji, działa zawsze|sec-05-instrukcja-warunkowa-jesli-to|lm-36"
   },
   {
    "id": "ref-73",
@@ -10357,7 +10501,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-74",
@@ -10374,7 +10520,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "tak jak w porównywaniu wartości|sec-05-porownywanie-wartosci|ref-74"
   },
   {
    "id": "ref-75",
@@ -10391,7 +10539,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "jej zapis omówimy osobno|sec-06-czym-jest-lista-danych|ref-75"
   },
   {
    "id": "ref-76",
@@ -10408,7 +10558,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "tak samo jak przy `if`|sec-05-instrukcja-warunkowa-jesli-to|ref-76"
   },
   {
    "id": "ref-77",
@@ -10425,7 +10577,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Ostatni `print` nie ma wcięcia|sec-05-instrukcja-warunkowa-jesli-to|lm-36"
   },
   {
    "id": "ref-78",
@@ -10442,7 +10596,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-79",
@@ -10459,7 +10615,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-80",
@@ -10476,7 +10634,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "Pętla `for`, którą znasz, kończy się sama|sec-06-czym-jest-petla|ref-80"
   },
   {
    "id": "ref-81",
@@ -10493,7 +10653,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-39|lm-36"
+   "chain_checked": "lm-39|lm-36",
+   "link_ok": false,
+   "link_checked": "„Wspólna Kasa”, która czeka na koniec listy|sec-06-czym-jest-petla|lm-39"
   },
   {
    "id": "ref-82",
@@ -10510,7 +10672,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-39|lm-36"
+   "chain_checked": "lm-39|lm-36",
+   "link_ok": false,
+   "link_checked": "wcześniej szła po imionach uczestników|sec-06-czym-jest-petla|lm-39"
   },
   {
    "id": "ref-83",
@@ -10527,7 +10691,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-84",
@@ -10544,7 +10710,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "przy przechodzeniu przez wszystkie elementy|sec-06-petla-po-elementach-listy|ref-84"
   },
   {
    "id": "ref-85",
@@ -10561,7 +10729,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-86",
@@ -10578,7 +10748,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "więc „Ania” jest pierwsza|sec-06-czym-jest-lista-danych|lm-42"
   },
   {
    "id": "ref-87",
@@ -10595,7 +10767,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "taką jak w sekcji o pętli po elementach listy|sec-06-petla-po-elementach-listy|lm-44"
   },
   {
    "id": "ref-88",
@@ -10612,7 +10786,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Oba mechanizmy omówimy osobno w kolejnych sekcjach|sec-07-czym-sa-argumenty-funkcji|ref-88"
   },
   {
    "id": "ref-89",
@@ -10629,7 +10805,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Oba mechanizmy omówimy osobno w kolejnych sekcjach|sec-07-zwracanie-wyniku-przez-funkcje|ref-89"
   },
   {
    "id": "ref-90",
@@ -10646,7 +10824,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-45|lm-44"
+   "chain_checked": "lm-45|lm-44",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-91",
@@ -10663,7 +10843,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "do czego wrócimy przy testowaniu programu|sec-09-czym-jest-testowanie-programu|ref-91"
   },
   {
    "id": "ref-92",
@@ -10680,7 +10862,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-45|lm-44"
+   "chain_checked": "lm-45|lm-44",
+   "link_ok": false,
+   "link_checked": "U siebie masz już `funkcje.py` z funkcją `suma`|sec-07-czym-jest-funkcja|lm-45"
   },
   {
    "id": "ref-93",
@@ -10697,7 +10881,9 @@
    "note": "Żadna dalsza sekcja jej nie spełniła.",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-94",
@@ -10714,7 +10900,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Czytanie takich komunikatów omówimy przy błędach|sec-09-jak-czytac-komunikat-o-bledzie|ref-94"
   },
   {
    "id": "ref-95",
@@ -10731,7 +10919,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-96",
@@ -10748,7 +10938,9 @@
    "note": "Żadna dalsza sekcja jej nie spełniła.",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-97",
@@ -10765,7 +10957,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-45|lm-44"
+   "chain_checked": "lm-45|lm-44",
+   "link_ok": false,
+   "link_checked": "na_osobe(suma(mazury), 3)|sec-07-czym-jest-funkcja|lm-45"
   },
   {
    "id": "ref-98",
@@ -10782,7 +10976,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "To ryzyko z zamienioną kolejnością, które znasz z argumentów funkcji|sec-07-czym-sa-argumenty-funkcji|lm-48"
   },
   {
    "id": "ref-99",
@@ -10799,7 +10995,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "przy dzieleniu programu na funkcje|sec-07-po-co-dzielic-program-na-funkcje|ref-99"
   },
   {
    "id": "ref-100",
@@ -10816,7 +11014,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-101",
@@ -10833,7 +11033,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-45|lm-44"
+   "chain_checked": "lm-45|lm-44",
+   "link_ok": false,
+   "link_checked": "U siebie w `funkcje.py` masz te same funkcje|sec-07-czym-jest-funkcja|lm-45"
   },
   {
    "id": "ref-102",
@@ -10850,7 +11052,9 @@
    "note": "Żadna dalsza sekcja jej nie spełniła.",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-103",
@@ -10867,7 +11071,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "Do tej pory kwoty wpisywaliśmy w kodzie|sec-07-ponowne-uzycie-kodu|lm-51"
   },
   {
    "id": "ref-104",
@@ -10884,7 +11090,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "gdy zajmiemy się pytaniem użytkownika o informację|sec-08-pytanie-uzytkownika-o-informacje|ref-104"
   },
   {
    "id": "ref-105",
@@ -10901,7 +11109,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-106",
@@ -10918,7 +11128,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "o której mówiliśmy przy zwracaniu wyniku|sec-07-zwracanie-wyniku-przez-funkcje|lm-49"
   },
   {
    "id": "ref-107",
@@ -10935,7 +11147,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Do plików wrócimy osobno|sec-08-czym-jest-plik|ref-107"
   },
   {
    "id": "ref-108",
@@ -10952,7 +11166,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "opiszemy przy interfejsie|sec-08-czym-jest-interfejs-uzytkownika|ref-108"
   },
   {
    "id": "ref-109",
@@ -10969,7 +11185,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-52|lm-51"
+   "chain_checked": "lm-52|lm-51",
+   "link_ok": true,
+   "link_checked": "kod zostaje ten sam, a dane przychodzą przy każdym uruchomieniu inne|sec-08-dane-wejsciowe-programu|lm-52"
   },
   {
    "id": "ref-110",
@@ -10986,7 +11204,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "przykładzie, który będzie nam towarzyszył|sec-09-po-co-zapisywac-wersje-kodu|ref-110"
   },
   {
    "id": "ref-111",
@@ -11003,7 +11223,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "`input` zawsze zwraca tekst, nawet gdy ktoś wpisze `45.5`|sec-08-pytanie-uzytkownika-o-informacje|lm-54"
   },
   {
    "id": "ref-112",
@@ -11020,7 +11242,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "o czym powiemy przy sprawdzaniu danych użytkownika|sec-08-po-co-sprawdzac-dane-uzytkownika|ref-112"
   },
   {
    "id": "ref-113",
@@ -11037,7 +11261,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "dwie znane już rzeczy: input do pytań i print do wyników|sec-08-pytanie-uzytkownika-o-informacje|ref-113"
   },
   {
    "id": "ref-114",
@@ -11054,7 +11280,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-53|ref-107"
+   "chain_checked": "lm-53|ref-107",
+   "link_ok": true,
+   "link_checked": "suchy wynik nic nie mówi komuś, kto nie zna kodu|sec-08-dane-wyjsciowe-programu|lm-53"
   },
   {
    "id": "ref-115",
@@ -11071,7 +11299,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-115|lm-54"
+   "chain_checked": "ref-115|lm-54",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-116",
@@ -11088,7 +11318,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "zawsze zwraca tekst|sec-08-pytanie-uzytkownika-o-informacje|lm-54"
   },
   {
    "id": "ref-117",
@@ -11105,7 +11337,9 @@
    "note": "",
    "via_section": "sec-09-czym-jest-debugowanie",
    "via_anchor": "ref-119",
-   "chain_checked": "ref-117|ref-119"
+   "chain_checked": "ref-117|ref-119",
+   "link_ok": false,
+   "link_checked": "Czytanie komunikatów i szukanie takich błędów omówimy w kolejnych sekcjach tego działu|sec-09-czym-jest-debugowanie|ref-119"
   },
   {
    "id": "ref-118",
@@ -11122,7 +11356,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "Inaczej niż przy błędzie składni ze „Startem”, który się nie pojawił|sec-09-blad-skladni-a-blad-logiczny|lm-61"
   },
   {
    "id": "ref-119",
@@ -11139,7 +11375,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "Szukanie przyczyny krok po kroku omówimy przy debugowaniu|sec-09-czym-jest-debugowanie|ref-119"
   },
   {
    "id": "ref-120",
@@ -11156,7 +11394,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "jak przy błędzie z niewłaściwym dzielnikiem|sec-09-blad-skladni-a-blad-logiczny|lm-60"
   },
   {
    "id": "ref-121",
@@ -11173,7 +11413,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-122",
@@ -11190,7 +11432,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "błąd logiczny z wynikiem 39.0 zamiast 26.0|sec-09-blad-skladni-a-blad-logiczny|lm-60"
   },
   {
    "id": "ref-123",
@@ -11207,7 +11451,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "test z poprzedniej sekcji|sec-09-czym-jest-testowanie-programu|ref-123"
   },
   {
    "id": "ref-124",
@@ -11224,7 +11470,9 @@
    "note": "Żadna dalsza sekcja jej nie spełniła.",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-125",
@@ -11241,7 +11489,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "jak w sekcji o czytaniu komunikatów, czytasz od dołu|sec-09-jak-czytac-komunikat-o-bledzie|lm-62"
   },
   {
    "id": "ref-126",
@@ -11258,7 +11508,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-127",
@@ -11275,7 +11527,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": false,
+   "link_checked": "Program do dzielenia wspólnych wydatków między osoby, który budujesz w warsztacie|sec-09-blad-skladni-a-blad-logiczny|lm-60"
   },
   {
    "id": "ref-128",
@@ -11292,7 +11546,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "dane wejściowe, przetwarzanie, dane wyjściowe|sec-10-programy-uzywane-na-co-dzien|ref-128"
   },
   {
    "id": "ref-129",
@@ -11309,7 +11565,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "jak w sekcji o zapisywaniu wersji kodu|sec-09-po-co-zapisywac-wersje-kodu|ref-129"
   },
   {
    "id": "ref-130",
@@ -11326,7 +11584,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-67|lm-62"
+   "chain_checked": "lm-67|lm-62",
+   "link_ok": true,
+   "link_checked": "szukanie po ostatniej linii komunikatu|sec-09-szukanie-rozwiazan-w-internecie|lm-67"
   },
   {
    "id": "ref-131",
@@ -11343,7 +11603,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "sekcji o budowie programu od pomysłu|sec-10-od-pomyslu-do-dzialajacego-programu|lm-69"
   },
   {
    "id": "ref-132",
@@ -11360,7 +11622,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "w sekcji o rozwiązaniach w internecie: po ostatniej linii komunikatu|sec-09-szukanie-rozwiazan-w-internecie|ref-132"
   },
   {
    "id": "ref-133",
@@ -11377,7 +11641,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-68|ref-128"
+   "chain_checked": "lm-68|ref-128",
+   "link_ok": false,
+   "link_checked": "Wspólna Kasa to jej przykład|sec-10-strona-internetowa-a-aplikacja-mobilna|lm-68"
   },
   {
    "id": "ref-134",
@@ -11394,7 +11660,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "ref-134|lm-68|ref-128"
+   "chain_checked": "ref-134|lm-68|ref-128",
+   "link_ok": null,
+   "link_checked": ""
   },
   {
    "id": "ref-135",
@@ -11411,7 +11679,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": ""
+   "chain_checked": "",
+   "link_ok": true,
+   "link_checked": "tą samą pętlą nauki|sec-10-od-czego-zaczac-nauke|lm-71"
   },
   {
    "id": "ref-136",
@@ -11428,7 +11698,9 @@
    "note": "",
    "via_section": "",
    "via_anchor": "",
-   "chain_checked": "lm-68|ref-128"
+   "chain_checked": "lm-68|ref-128",
+   "link_ok": false,
+   "link_checked": "Tak wygląda to we Wspólnej Kasie|sec-10-strona-internetowa-a-aplikacja-mobilna|lm-68"
   }
  ],
  "landmarks": [
@@ -12348,25 +12620,25 @@
  "question_count": 61,
  "question_count_proposed": 0,
  "rendered": {
-  "raport-przebiegu.md": "0683fd4a4449dc61d1e570dd830bf827143735486310a5b2ca457366d040246c",
+  "raport-przebiegu.md": "8219fd7b22ed1542f532d257aa597d6a24e1419f69d1da74d9e51f7e42c08258",
   "00 Glosariusz.md": "a7149a8debdc557b1c241e4cafc498d3c8318dc5f40f9ab5006fb0f3b322875d",
   "99 Przykład przewodni.md": "c48ce8d63373dd8f193164f7d6e98e0dd68bf4b5c7381ae507e67873973cd546",
   "99 Warsztat.md": "bbcb7de1e10c10e136d4d68362ee3003e77e36fdd2aacbb03b33ac86ab3d9c01",
   "98 Pułapki.md": "5727ba6f7138f34ed8959571e6fde8227cdebd0b06643cb26b78fdbd7ec52654",
   "97 Wersje i źródła.md": "7b41a94094c1289444700aecc4ad2920fc5a9c6656933ab71c4b1ea99736c9b3",
   "95 Dodatki.md": "314afc7a74e48f80e54b8e7ca9533ecf43fd7182af2cd88dd91a6feedeea7396",
-  "raport-pokrycia.md": "ee6695996585eb946bce788b19d636b2256578e791e8ee8e5a1cde89911286f4",
+  "raport-pokrycia.md": "9c8f20321ec11d3d31f3e265446d6a5d2110528842f6d47f952ac6ba14d246a4",
   "00 Wstęp.md": "89d38da9b1cb4c071097d7ae16917050d406a30f82561b449f5e91bb1191f55d",
-  "01 Wejdź w świat programowania.md": "a7422eff71ca6620051d7fe151fcb79dfe7c62e13e595b619500c1250ea22300",
-  "02 Myśl krok po kroku.md": "6b863ebef4f683a890ace74179ce1b8bf0aacc8d36c4a6ace3c47535b000a2da",
-  "03 Napisz i uruchom kod.md": "53dcbcf5384af3d16b0ca298f6dbd502fd00770a2f7fa2b6260bf9674e0beed9",
-  "04 Zapamiętaj dane w zmiennych.md": "a8f8285db7dda37c2dddb39663a2b148e070be79c1707ddf3b111c794dbb8f9b",
-  "05 Podejmuj decyzje w programie.md": "dd9167c5d57dcb12f4d8e6af7420fe0692489432a096f4a2238ca4c624321bc4",
-  "06 Powtarzaj i zbieraj dane.md": "77bb5cdb52d67ba0ef2d5d4cd4e2a41141f4721eaa5ac2504ef39fd7839677e1",
-  "07 Uporządkuj kod funkcjami.md": "1c47f0cbf7c1deeb8227844f727cdb26e209ce6df1621ff6e019d53908e7944a",
-  "08 Porozmawiaj z użytkownikiem.md": "60029f79843ad75c7c710026366a6fa96d4bee64948a81346943627782051a5e",
-  "09 Oswój błędy w kodzie.md": "ff1c9b01c2b56b10ba1d48a3484dd4c9c2340c4058524193f623ed1fd7397fbf",
-  "10 Zastosuj wiedzę w praktyce.md": "c690f92c1f26307969c38884644b2cb795c3b20c5208b343093ea5b64f895b23",
+  "01 Wejdź w świat programowania.md": "2a71919fa19447b955281bce577fc090100721507c580269db46d30e83c668e3",
+  "02 Myśl krok po kroku.md": "d6132e15e78a34c2c1cb8cae95db2327f4c492a90daeba7ef89a2cb8679000aa",
+  "03 Napisz i uruchom kod.md": "e07a7bef5b7aa8aa2fd00349ba1b3245403458fe19b23dfe7dcdd9437ab3aef6",
+  "04 Zapamiętaj dane w zmiennych.md": "a3135fa2b7dc971e9ec854eb37d8f43c28a73208319f7a0a23e692c8baccde87",
+  "05 Podejmuj decyzje w programie.md": "a3d718ff55a22c9bc721c6b6a7ab5a4a06afff65b0d28314ba8d96cf818365f2",
+  "06 Powtarzaj i zbieraj dane.md": "750f4e72aa9a453d36a29ff17b4055b88883b4f40484a82e53e8c8fd35c6b728",
+  "07 Uporządkuj kod funkcjami.md": "9c775d8683fa0651aa66d10f1b9439aadd2d5dd2404d72a8cc7d6e282f432c1e",
+  "08 Porozmawiaj z użytkownikiem.md": "21d55ec4ea25f2094aee6eda0996caeb55c9c96ad3d4c1927bfec10f8083f605",
+  "09 Oswój błędy w kodzie.md": "e2bf910bca279019a6aa5f1698f688bae44d1c0fc581e5e3484328ae1581756f",
+  "10 Zastosuj wiedzę w praktyce.md": "16b43067eb49597b87674890bf99218bb980598ce6cedae6ade3971f97f1cd74",
   "96 Ściągawka.md": "d8f760551f04745d27e07c0aec8a8151cb136c68ffdc31251918d199258d8a07"
  },
  "coverage": {

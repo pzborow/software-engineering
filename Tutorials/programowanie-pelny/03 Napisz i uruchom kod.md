@@ -23,7 +23,7 @@ Kod źródłowy to tekst programu zapisany w [języku programowania](00%20Glosar
 
 <a id="lm-15"></a>Fizycznie kod źródłowy jest zwykłym plikiem tekstowym, tak jak notatka czy lista zakupów. Różnica polega na treści: każda linia to [instrukcja](00%20Glosariusz.md#instrukcja) zapisana według ścisłych reguł [składni](00%20Glosariusz.md#składnia). [Ten sam algorytm, który wcześniej opisywaliśmy słowami i schematem](02%20My%C5%9Bl%20krok%20po%20kroku.md#lm-8), tu dostaje zapis, którego nie da się zrozumieć na dwa sposoby.
 
-Kod źródłowy zapisujemy w pliku o rozszerzeniu zależnym od języka. Pliki [Pythona](00%20Glosariusz.md#python) kończą się na `.py`. <a id="ref-19"></a>Taki plik będzie miał [nasz przykład, który będzie nam towarzyszył](#ref-35): „Wspólna Kasa”. <a id="ref-16"></a><a id="ref-24"></a>Zaczyna się od pliku `rozlicz.py`:
+Kod źródłowy zapisujemy w pliku o rozszerzeniu zależnym od języka. Pliki [Pythona](00%20Glosariusz.md#python) kończą się na `.py`. <a id="ref-19"></a>Taki plik będzie miał nasz przykład, który będzie nam towarzyszył: „Wspólna Kasa”. <a id="ref-16"></a><a id="ref-24"></a>Zaczyna się od pliku `rozlicz.py`:
 
 <a id="ref-25"></a>
 

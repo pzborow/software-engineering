@@ -53,7 +53,7 @@ Dane trzeba też gdzieś przechowywać, żeby użyć ich więcej niż raz. Do te
 
 Zmienna to <a id="ref-44"></a>nazwane miejsce w pamięci programu, w którym leży jedna dana. Dzięki nazwie możesz tę daną wielokrotnie odczytać, użyć w obliczeniach albo zastąpić inną.
 
-[Pamiętasz, że dane trzeba gdzieś przechowywać](#zobacz-czym-jest-dana), żeby użyć ich więcej niż raz. Właśnie do tego służy zmienna. Zamiast wpisywać `45.5` w kilku miejscach, nadajesz kwocie nazwę i posługujesz się nią. To trochę jak komórka w arkuszu, którą nazwałeś „kwota”, a potem odwołujesz się do niej po nazwie.
+Pamiętasz, że dane trzeba gdzieś przechowywać, żeby użyć ich więcej niż raz. Właśnie do tego służy zmienna. Zamiast wpisywać `45.5` w kilku miejscach, nadajesz kwocie nazwę i posługujesz się nią. To trochę jak komórka w arkuszu, którą nazwałeś „kwota”, a potem odwołujesz się do niej po nazwie.
 
 ```python
 imie = "Ania"
@@ -174,7 +174,7 @@ Liczba to wartość, na której program liczy. Tekst to ciąg znaków, który pr
 | `"45.5"` | tekst | nie |
 | `"Ania"` | tekst | nie |
 
-W programie ułamek dziesiętny zapisujemy z kropką, nie z przecinkiem, [tak jak `kwota = 45.5` w „Wspólnej Kasie”](#nazwij-swoją-pierwszą-zmienną).
+W programie ułamek dziesiętny zapisujemy z kropką, nie z przecinkiem, tak jak `kwota = 45.5` w „Wspólnej Kasie”.
 
 ```python
 kwota = 45.5
@@ -242,7 +242,7 @@ _[źródła: 1](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.md#04-zapamiętaj-dane-w
 
 ## Sprawdź typ danych
 
-<a id="ref-53"></a>[Typ danych](00%20Glosariusz.md#typ-danych) to rodzaj wartości, który mówi Pythonowi, czym ta wartość jest i jakie działania są na niej dozwolone. [Wcześniej pisaliśmy po prostu „rodzaj danych”](#zobacz-czym-jest-dana), teraz mamy na to fachową nazwę.
+<a id="ref-53"></a>[Typ danych](00%20Glosariusz.md#typ-danych) to rodzaj wartości, który mówi Pythonowi, czym ta wartość jest i jakie działania są na niej dozwolone. Wcześniej pisaliśmy po prostu „rodzaj danych”, teraz mamy na to fachową nazwę.
 
 Typ ma każda wartość, także ta ukryta w zmiennej. Python rozpoznaje go po zapisie: cudzysłów oznacza tekst, cyfry z kropką ułamek, a `True` lub `False` prawdę albo fałsz. Dlatego `"45.5"` to [tylko cztery znaki: 4, 5, kropka, 5](#lm-27), a nie pieniądze. Typ sprawdzisz funkcją `type()`.
 
@@ -270,7 +270,7 @@ Słowo `class` na razie pomiń, ważna jest nazwa po nim. <a id="ref-45"></a>Oto
 | `float` | liczba z ułamkiem | `45.5` |
 | `bool` | prawda lub fałsz | `True` |
 
-Typ decyduje o tym, co program może zrobić z wartością. Dlatego [imienia nie podzielisz przez 2](#lm-24), a kwotę tak. Typem `bool` zajmiemy się osobno, w kolejnej sekcji.
+Typ decyduje o tym, co program może zrobić z wartością. Dlatego [[imienia nie da się podzielić|imienia nie podzielisz przez 2]], a kwotę tak. Typem `bool` zajmiemy się osobno, w kolejnej sekcji.
 
 Konsekwencja: gdy program zachowuje się dziwnie, jedno z pierwszych pytań brzmi „jakiego typu jest ta wartość?”.
 
@@ -410,7 +410,7 @@ _[źródła: 1](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.md#04-zapamiętaj-dane-w
 
 [Przypisanie](00%20Glosariusz.md#przypisanie) to instrukcja, która zapisuje wartość pod nazwą zmiennej. Dzięki niej program zapamiętuje daną i może do niej wrócić w dalszej części kodu.
 
-<a id="ref-47"></a>Zapisujesz je znakiem `=`. Po lewej stoi nazwa, po prawej wartość: `kwota = 45.5`. To nie jest równanie ze szkoły, tylko polecenie: „weź to, co po prawej, i połóż pod nazwą po lewej”. Jeśli zmienna jeszcze nie istniała, Python ją tworzy. Jeśli istniała, podmienia jej wartość, [tak jak przy pudełku z etykietą](#wyobraź-sobie-pudełko-z-etykietą).
+<a id="ref-47"></a>Zapisujesz je znakiem `=`. Po lewej stoi nazwa, po prawej wartość: `kwota = 45.5`. To nie jest równanie ze szkoły, tylko polecenie: „weź to, co po prawej, i połóż pod nazwą po lewej”. Jeśli zmienna jeszcze nie istniała, Python ją tworzy. Jeśli istniała, podmienia jej wartość, tak jak przy pudełku z etykietą.
 
 Przypisanie działa od prawej do lewej i tylko w chwili wykonania. Gdy po prawej stronie stoi inna zmienna, Python kopiuje jej aktualną wartość. Późniejsza zmiana oryginału nie rusza kopii.
 

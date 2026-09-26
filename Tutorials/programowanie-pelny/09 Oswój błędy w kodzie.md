@@ -57,7 +57,7 @@ Na osobę: 39.0
 
 <a id="lm-60"></a>Nie ma komunikatu, a wynik jest zły: powinno być 26.0, bo osób jest trzy.
 
-Konsekwencja: błędy składni są uciążliwe, ale łatwe, bo wskaże je Python. Za błędy logiczne odpowiadasz Ty, więc wynik porównuj z rachunkiem na kartce. [Czytanie komunikatów i szukanie takich błędów omówimy w kolejnych sekcjach tego działu](#ref-119).
+Konsekwencja: błędy składni są uciążliwe, ale łatwe, bo wskaże je Python. Za błędy logiczne odpowiadasz Ty, więc wynik porównuj z rachunkiem na kartce. Czytanie komunikatów i szukanie takich błędów omówimy w kolejnych sekcjach tego działu.
 
 _Wersje: Python 3.13 · [źródła: 1](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.md#09-oswój-błędy-w-kodzie)_
 
@@ -98,7 +98,7 @@ Ostatnia linia ma dwie części: nazwę błędu (`ZeroDivisionError`, dzielenie 
 
 [Inaczej niż przy błędzie składni ze „Startem”, który się nie pojawił](#lm-61), tu „Start” się wypisał, bo program ruszył i padł dopiero w środku.
 
-Konsekwencja: nie bój się czerwonego tekstu. <a id="ref-117"></a>Przeczytaj ostatnią linię, znajdź w śladzie własny plik i numer linii, a zwykle już wiesz, gdzie szukać. [Szukanie przyczyny krok po kroku omówimy przy debugowaniu](#ref-119).
+Konsekwencja: nie bój się czerwonego tekstu. <a id="ref-117"></a>Przeczytaj ostatnią linię, znajdź w śladzie własny plik i numer linii, a zwykle już wiesz, gdzie szukać. Szukanie przyczyny krok po kroku omówimy przy debugowaniu.
 
 > **Warsztat: zrób u siebie**
 

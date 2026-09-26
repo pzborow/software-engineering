@@ -23,9 +23,9 @@ Prosty schemat każdego programu wygląda tak:
 dane na wejściu  -->  program (instrukcje)  -->  wynik na wyjściu
 ```
 
-Weźmy [przykład, który będzie nam towarzyszył](#lm-2): „Wspólna Kasa”. <a id="lm-2"></a>Na wyjeździe czworo znajomych płaci na zmianę za jedzenie, paliwo i nocleg. Na koniec trzeba ustalić, kto komu ile jest winien. W arkuszu robisz to ręcznie: wpisujesz kwoty, sumujesz, dzielisz, odejmujesz, a przy każdym nowym wyjeździe zaczynasz od nowa.
+Weźmy przykład, który będzie nam towarzyszył: „Wspólna Kasa”. <a id="lm-2"></a>Na wyjeździe czworo znajomych płaci na zmianę za jedzenie, paliwo i nocleg. Na koniec trzeba ustalić, kto komu ile jest winien. W arkuszu robisz to ręcznie: wpisujesz kwoty, sumujesz, dzielisz, odejmujesz, a przy każdym nowym wyjeździe zaczynasz od nowa.
 
-Program „Wspólna Kasa” zrobi to za ciebie. Na wejściu dostanie listę wydatków (kto zapłacił i ile), a na wyjściu poda rozliczenie. Napisze go programista, czyli [osoba, która zamienia potrzebę na instrukcje](#ref-1) zrozumiałe dla komputera. [Na razie nie piszemy kodu](#ref-3); ważne, że raz zapisane instrukcje można uruchamiać bez końca.
+Program „Wspólna Kasa” zrobi to za ciebie. Na wejściu dostanie listę wydatków (kto zapłacił i ile), a na wyjściu poda rozliczenie. Napisze go programista, czyli [osoba, która zamienia potrzebę na instrukcje](#ref-1) zrozumiałe dla komputera. Na razie nie piszemy [kodu](00%20Glosariusz.md#kod); ważne, że raz zapisane instrukcje można uruchamiać bez końca.
 
 > **Wtręt:** Marta napisała w pierwszej wersji programu: „podziel koszty sprawiedliwie”. Komputer nie zgadł, co ona ma na myśli: nie wiedział, czy sprawiedliwie to po równo, czy według tego, kto ile zjadł. Dopiero gdy zamieniła to na jednoznaczne kroki (zsumuj wydatki, podziel przez liczbę osób, odejmij to, co kto już zapłacił), dostała wynik.
 
@@ -75,7 +75,7 @@ Plik obrazu: `ilustracje/01-odkryj-sens-programowania-1.png`
 
 ## Przyjrzyj się pracy programisty
 
-Programista to <a id="ref-1"></a>osoba, która zamienia potrzebę na instrukcje: bierze problem opisany zwykłymi słowami i tworzy program, który go rozwiązuje. Pisanie [kodu](00%20Glosariusz.md#kod), czyli zapisanych w języku programowania instrukcji programu, to tylko część tej pracy.
+Programista to <a id="ref-1"></a>osoba, która zamienia potrzebę na instrukcje: bierze problem opisany zwykłymi słowami i tworzy program, który go rozwiązuje. Pisanie kodu, czyli zapisanych w języku programowania instrukcji programu, to tylko część tej pracy.
 
 [Weźmy czworo znajomych z wyjazdu](#lm-2), którzy męczą się z rozliczaniem wydatków w arkuszu. Ktoś musi ustalić, czego naprawdę potrzebują: czy program ma tylko wyliczyć, kto komu ile oddaje, czy też pamiętać kolejne wyjazdy. Potem opisuje rozwiązanie krok po kroku, zapisuje je w języku programowania, sprawdza na kilku przykładach i poprawia błędy.
 
@@ -87,7 +87,7 @@ Programista sporo czasu spędza więc na rozmowie, myśleniu, czytaniu cudzego k
 
 Nie trzeba być programistą z zawodu, żeby programować. Osoba spoza IT, która napisze mały program do własnych rozliczeń, wykonuje tę samą pracę, tylko na mniejszą skalę.
 
-<a id="ref-3"></a>[Na razie nie piszemy kodu](03%20Napisz%20i%20uruchom%20kod.md#ref-35). Ten problem z wydatkami będzie jednak przykładem, który będzie nam towarzyszył: <a id="ref-2"></a>program „Wspólna Kasa” zbudujemy razem, a ty przećwiczysz w tej roli.
+<a id="ref-3"></a>Na razie nie piszemy kodu. Ten problem z wydatkami będzie jednak przykładem, który będzie nam towarzyszył: <a id="ref-2"></a>program „Wspólna Kasa” zbudujemy razem, a ty przećwiczysz w tej roli.
 
 ## Poznaj język programowania
 
@@ -95,7 +95,7 @@ Język programowania to <a id="ref-5"></a>ściśle określony sposób zapisywani
 
 Komputer nie wyciąga wniosków z kontekstu. Zdanie „podziel rachunek po równo” człowiek zrozumie od razu, komputer nie. Język programowania wymusza zapis, który ma jedno znaczenie. Zbiór jego reguł nazywamy [składnią](00%20Glosariusz.md#składnia): mówi ona, jak wolno układać słowa i znaki, żeby powstało poprawne polecenie.
 
-Oto jedna instrukcja w Pythonie, [języku, którego użyjemy w tym tutorialu](03%20Napisz%20i%20uruchom%20kod.md#ref-16):
+Oto jedna instrukcja w Pythonie, języku, którego użyjemy w tym tutorialu:
 
 ```python
 print("Cześć, Wspólna Kasa!")
@@ -109,7 +109,7 @@ Słowo `print` znaczy „wypisz”, a tekst w cudzysłowie to to, co ma się poj
 
 Języków jest bardzo wiele, a każdy ma inną składnię i inne zastosowania. Różnią się zapisem, ale robią to samo: pozwalają opisać kroki, które komputer wykona. Kto pozna zasady jednego, łatwiej nauczy się następnych.
 
-[Pythonem zajmiemy się osobno, gdy przejdziemy do pisania „Wspólnej Kasy”](07%20Uporz%C4%85dkuj%20kod%20funkcjami.md#ref-28).
+Pythonem zajmiemy się osobno, gdy przejdziemy do pisania „Wspólnej Kasy”.
 
 _Wersje: Python 3.13 · [źródła: 2](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.md#01-wejdź-w-świat-programowania)_
 

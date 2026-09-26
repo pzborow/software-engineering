@@ -34,7 +34,7 @@ dane: lista wydatków (kto, ile) i liczba osób
 wynik: saldo każdej osoby
 ```
 
-<a id="ref-8"></a>[Na razie nie piszemy kodu](03%20Napisz%20i%20uruchom%20kod.md#ref-35): to celowo zwykły język. <a id="ref-9"></a>Ten sam algorytm można potem zapisać w Pythonie, w arkuszu kalkulacyjnym albo wykonać ręcznie. Właśnie dlatego warto go oddzielać od [kodu](00%20Glosariusz.md#kod).
+<a id="ref-8"></a>Na razie nie piszemy [kodu](00%20Glosariusz.md#kod): to celowo zwykły język. <a id="ref-9"></a>Ten sam algorytm można potem zapisać w Pythonie, w arkuszu kalkulacyjnym albo wykonać ręcznie. Właśnie dlatego warto go oddzielać od kodu.
 
 Konsekwencja: zanim napiszesz program, upewnij się, że masz algorytm. Gdy kroki są jasne na papierze, zamiana ich na kod jest już głównie kwestią zapisu.
 
@@ -66,7 +66,7 @@ Tak samo jest z „dodaj szczyptę soli” czy „smaż chwilę”: kucharz zint
 
 Ten sam przepis mogą wykonać różne osoby w różnych kuchniach i wyjdzie to samo danie. Tak samo algorytm da się wykonać w Pythonie, w arkuszu albo na kartce.
 
-[Przykładem, który będzie nam towarzyszył, jest „Wspólna Kasa”](03%20Napisz%20i%20uruchom%20kod.md#ref-19). Jej przepis to [cztery kroki rozliczenia, które już znasz](#lm-8): składniki to wydatki i liczba osób, a „danie” to saldo każdego.
+Przykładem, który będzie nam towarzyszył, jest „Wspólna Kasa”. Jej przepis to [cztery kroki rozliczenia, które już znasz](#lm-8): składniki to wydatki i liczba osób, a „danie” to saldo każdego.
 
 Konsekwencja: pisząc algorytm, wyobraź sobie przepis dla kogoś, kto nigdy nie gotował. Jeśli taka osoba wykona go bez pytań, kroki są dość dokładne.
 
@@ -91,7 +91,7 @@ Plik obrazu: `ilustracje/02-porównaj-przepis-z-algorytmem-1.png`
 
 Kolejność ma znaczenie, bo prawie każdy krok korzysta z wyniku poprzedniego. Zamiana miejsc sprawia, że krok dostaje dane, których jeszcze nie ma, i algorytm daje zły wynik albo wcale nie działa.
 
-Weźmy [cztery kroki rozliczenia](#lm-8) [we „Wspólnej Kasie”](01%20Wejd%C5%BA%20w%20%C5%9Bwiat%20programowania.md#lm-2). Ala wydała 60 zł, Bartek 40 zł, Czarek 20 zł. Najpierw sumujemy: 120 zł. Potem dzielimy przez trzy osoby: udział wynosi 40 zł. Na końcu odejmujemy udział od wpłaty każdego.
+Weźmy [cztery kroki rozliczenia](#lm-8) we „Wspólnej Kasie”. Ala wydała 60 zł, Bartek 40 zł, Czarek 20 zł. Najpierw sumujemy: 120 zł. Potem dzielimy przez trzy osoby: udział wynosi 40 zł. Na końcu odejmujemy udział od wpłaty każdego.
 
 Teraz zamieńmy kroki: odejmujemy udział, zanim go policzyliśmy.
 
@@ -139,7 +139,7 @@ Oto [rozliczenie „Wspólnej Kasy” z trzema osobami](#lm-8), narysowane znaka
 
 Rysunek ma dwie zalety. Rozgałęzienia i powroty widać od razu, a w opisie słownym łatwo je przeoczyć. Poza tym pokazuje, gdzie algorytm się kończy, czyli sprawdzalny warunek zakończenia.
 
-Konsekwencja: schemat pozwala sprawdzić algorytm na kartce, zanim powstanie kod. Wrócimy do niego przy podziale problemu na części, a „Wspólna Kasa”, [przykład, który będzie nam towarzyszył](03%20Napisz%20i%20uruchom%20kod.md#ref-35), [dostanie z niego kod dopiero później](03%20Napisz%20i%20uruchom%20kod.md#ref-25).
+Konsekwencja: schemat pozwala sprawdzić algorytm na kartce, zanim powstanie kod. Wrócimy do niego przy podziale problemu na części, a „Wspólna Kasa”, przykład, który będzie nam towarzyszył, dostanie z niego kod dopiero później.
 
 > **Z przymrużeniem oka:** Schemat blokowy bez strzałki „nie” wychodzącej z ostatniego rombu przypomina rondo bez zjazdów: wszystko jest poprawnie narysowane, tylko nikt stamtąd nie wyjedzie.
 
@@ -161,7 +161,7 @@ Każda część ma jasne wejście i wynik. Część 3 potrzebuje wyniku części
 
 Jeśli część nadal jest zbyt duża, dziel ją dalej, aż każdą da się opisać jednym zdaniem. Dobra część daje się też przetestować samodzielnie: znasz jej dane i wiesz, jaki wynik ma wyjść.
 
-Konsekwencja: w programie [takie części zamienimy w osobne](07%20Uporz%C4%85dkuj%20kod%20funkcjami.md#ref-28) [funkcje](00%20Glosariusz.md#funkcja), czyli nazwane fragmenty kodu do wielokrotnego użycia. Ich nazwy, np. `suma_wydatkow`, <a id="ref-10"></a>poznasz później, gdy zaczniemy pisać „Wspólną Kasę”, [przykład, który będzie nam towarzyszył w kolejnych działach](03%20Napisz%20i%20uruchom%20kod.md#ref-30).
+Konsekwencja: w programie takie części zamienimy w osobne [funkcje](00%20Glosariusz.md#funkcja), czyli nazwane fragmenty kodu do wielokrotnego użycia. Ich nazwy, np. `suma_wydatkow`, <a id="ref-10"></a>poznasz później, gdy zaczniemy pisać „Wspólną Kasę”, przykład, który będzie nam towarzyszył w kolejnych działach.
 
 > **Wtręt:** Marta wpisała jedną instrukcję: „rozlicz wyjazd”. Kiedy wynik się nie zgadzał, nie umiała powiedzieć, czy zawiodła suma, udział, czy porównanie z wpłatą, bo wszystko siedziało w jednym kawałku. Dopiero podział na trzy części, każda z własnym wynikiem do sprawdzenia, pozwolił jej zajrzeć do sumy i zauważyć, że jeden rachunek został policzony dwa razy.
 

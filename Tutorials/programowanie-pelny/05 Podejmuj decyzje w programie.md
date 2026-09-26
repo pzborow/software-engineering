@@ -55,7 +55,7 @@ print(kwota % 3)
 
 Końcówka `...336` to drobna nieścisłość: komputer trzyma ułamki w przybliżeniu.
 
-Odejmowanie, dzielenie, `//`, `%` i `**` mają sens tylko na liczbach. [Skoro `nazwa_wyjazdu` jest tekstem](04%20Zapami%C4%99taj%20dane%20w%20zmiennych.md#lm-24), `nazwa_wyjazdu / 2` kończy się błędem `TypeError`. Wyjątkiem są `+` i `*`, które na tekście działają inaczej: sklejają i powtarzają.
+Odejmowanie, dzielenie, `//`, `%` i `**` mają sens tylko na liczbach. Skoro `nazwa_wyjazdu` jest tekstem, `nazwa_wyjazdu / 2` kończy się błędem `TypeError`. Wyjątkiem są `+` i `*`, które na tekście działają inaczej: sklejają i powtarzają.
 
 ```python
 print("Ania" + "Bartek")
@@ -127,7 +127,7 @@ _Wersje: Python 3.13 · [źródła: 2](97%20Wersje%20i%20%C5%BAr%C3%B3d%C5%82a.m
 
 ## Połącz kilka tekstów
 
-Program łączy teksty operatorem `+`, który skleja je w jeden, dokładnie w takiej kolejności i z takimi znakami, jakie mu podasz. Ta operacja nazywa się [sklejaniem tekstów](00%20Glosariusz.md#konkatenacja) (konkatenacją). <a id="ref-52"></a>[Obiecaliśmy w poprzedniej sekcji, że zajmiemy się tym osobno](#wykonuj-działania-matematyczne), więc oto ono.
+Program łączy teksty operatorem `+`, który skleja je w jeden, dokładnie w takiej kolejności i z takimi znakami, jakie mu podasz. Ta operacja nazywa się [sklejaniem tekstów](00%20Glosariusz.md#konkatenacja) (konkatenacją). <a id="ref-52"></a>Obiecaliśmy w poprzedniej sekcji, że zajmiemy się tym osobno, więc oto ono.
 
 Python niczego nie dopowiada. Nie doda spacji ani przecinka, więc odstępy musisz wstawić sam, jako część tekstu w cudzysłowie:
 

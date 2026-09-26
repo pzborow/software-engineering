@@ -36,7 +36,7 @@ Zawsze są [dane wejściowe](00%20Glosariusz.md#dane-wejściowe), jakieś przetw
 
 Pod spodem są te same klocki, które już budowałeś: zmienne, decyzje (`if`), pętle po listach, funkcje i pliki. Nawigacja też przegląda listę dróg i wybiera jedną, a bank też sprawdza dane od użytkownika, zanim cokolwiek zaksięguje.
 
-Różni je skala i [interfejs](00%20Glosariusz.md#interfejs-użytkownika): przyciski i mapy zamiast pytań w terminalu. [Program do dzielenia wspólnych wydatków między osoby, który budujesz w warsztacie](09%20Osw%C3%B3j%20b%C5%82%C4%99dy%20w%20kodzie.md#lm-60) (nazywamy go „Wspólna Kasa”), należy do tej samej rodziny: bierze wydatki, liczy i wypisuje, kto ile zapłacił. Jest po prostu mały. Czym różni się strona internetowa od aplikacji mobilnej, wyjaśnimy w następnej sekcji.
+Różni je skala i [interfejs](00%20Glosariusz.md#interfejs-użytkownika): przyciski i mapy zamiast pytań w terminalu. Program do dzielenia wspólnych wydatków między osoby, który budujesz w warsztacie (nazywamy go „Wspólna Kasa”), należy do tej samej rodziny: bierze wydatki, liczy i wypisuje, kto ile zapłacił. Jest po prostu mały. Czym różni się strona internetowa od aplikacji mobilnej, wyjaśnimy w następnej sekcji.
 
 Konsekwencja: skoro gotowe programy to złożone proste kroki, da się je zrozumieć, a proste zadania z Twojej pracy da się zautomatyzować własnym małym programem.
 
@@ -152,7 +152,7 @@ To ta sama [pętla](00%20Glosariusz.md#pętla), którą znasz z [sekcji o budowi
 
 Nie kopiuj gotowców bez zrozumienia. Lepiej napisać własną, kulawą wersję niż wkleić cudzą. Gdy utkniesz, szukaj tak, jak [w sekcji o rozwiązaniach w internecie: po ostatniej linii komunikatu](09%20Osw%C3%B3j%20b%C5%82%C4%99dy%20w%20kodzie.md#szukaj-rozwiązań-w-sieci).
 
-Kolejne elementy dokładaj po jednym: dane, decyzje, pętle, funkcje, pliki, testy. Ten tutorial jest taką drogą, a [Wspólna Kasa to jej przykład](#lm-68).
+Kolejne elementy dokładaj po jednym: dane, decyzje, pętle, funkcje, pliki, testy. Ten tutorial jest taką drogą, a Wspólna Kasa to jej przykład.
 
 Warsztat poniżej to Twój pierwszy samodzielny krok: dopisujesz do Wspólnej Kasy jedną własną funkcję, która wypisuje, kto ile dopłaca albo dostaje, i zapisujesz ją jako commit. W kolejnej sekcji zobaczysz, jak taki kawałek kodu zaczyna pracować za Ciebie.
 
@@ -225,7 +225,7 @@ Wynik:
 
 [Automatyzacja](00%20Glosariusz.md#automatyzacja) to zlecenie komputerowi powtarzalnej czynności, którą wcześniej robiłeś(-aś) ręcznie. Osoba spoza IT zyskuje na niej czas i pewność: komputer nie nudzi się, nie myli przy setnej pozycji i robi to samo za każdym razem.
 
-<a id="ref-134"></a>Mechanizm znasz: to pętla po danych i funkcja. Zamiast przepisywać kwoty do kalkulatora, opisujesz kroki raz, a program wykonuje je dla dowolnej liczby pozycji. [Tak wygląda to we Wspólnej Kasie](#lm-68):
+<a id="ref-134"></a>Mechanizm znasz: to pętla po danych i funkcja. Zamiast przepisywać kwoty do kalkulatora, opisujesz kroki raz, a program wykonuje je dla dowolnej liczby pozycji. Tak wygląda to we Wspólnej Kasie:
 
 ```python
 wydatki = [{"kto": "Ania", "opis": "zakupy", "kwota": 120.0},
